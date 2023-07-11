@@ -1,3 +1,2 @@
-# nlp_proj
-# nlp_proj
-# cv_proj
+# Computer Vision project
+This branch containing source code
