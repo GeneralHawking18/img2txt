@@ -1,0 +1,12 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='pu', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[])
+iter 1, The 1-th image: 0,clip score 10.968: [CLS] image of a living room with a kitchen and a fireplace [SEP]
+iter 2, The 1-th image: 0,clip score 13.405: [CLS] image of a living room suggesting a kitchen with a fireplace [SEP]
+iter 3, The 1-th image: 0,clip score 13.689: [CLS] image of a living room perhaps a kitchen or a fireplace [SEP]
+iter 4, The 1-th image: 0,clip score 12.951: [CLS] image of a living room perhaps a television or a fireplace [SEP]
+iter 5, The 1-th image: 0,clip score 12.951: [CLS] image of a living room perhaps a television or a fireplace [SEP]
+Finished in 3.841s
+The 1-th image: 0
+final caption: image of a living room perhaps a television or a fireplace
+best caption: image of a living room perhaps a kitchen or a fireplace

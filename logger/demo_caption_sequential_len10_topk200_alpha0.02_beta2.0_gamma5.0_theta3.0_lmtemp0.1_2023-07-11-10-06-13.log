@@ -1,0 +1,115 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[])
+iter 1, The 1-th image: G,clip score 0.317: [CLS] image of a picture of a running horse surrounded. [SEP]
+iter 2, The 1-th image: G,clip score 0.274: [CLS] image of a picture of a white horse ride. [SEP]
+iter 3, The 1-th image: G,clip score 0.242: [CLS] image of a scene with a simulated car chase like [SEP]
+iter 4, The 1-th image: G,clip score 0.204: [CLS] image of a camera photography after a car station photograph [SEP]
+iter 5, The 1-th image: G,clip score 0.228: [CLS] image of the camera race to a radio reference photo [SEP]
+Finished in 5.000s
+The 1-th image: G
+final caption: image of the camera race to a radio reference photo
+best caption: image of a picture of a running horse surrounded.
+iter 1, The 1-th image: G,clip score 0.317: [CLS] image of a picture of a running horse surrounded. [SEP]
+iter 2, The 1-th image: G,clip score 0.274: [CLS] image of a picture of a white horse ride. [SEP]
+iter 3, The 1-th image: G,clip score 0.242: [CLS] image of a scene with a simulated car chase like [SEP]
+iter 4, The 1-th image: G,clip score 0.204: [CLS] image of a camera photography after a car station photograph [SEP]
+iter 5, The 1-th image: G,clip score 0.228: [CLS] image of the camera race to a radio reference photo [SEP]
+Finished in 2.495s
+The 1-th image: G
+final caption: image of the camera race to a radio reference photo
+best caption: image of a picture of a running horse surrounded.
+iter 1, The 1-th image: G,clip score 0.298: [CLS] a photo of the horse running by the front gate appeared chorus.
+iter 2, The 1-th image: G,clip score 0.278: [CLS] a photo of the horse standing at the main entrance can scoring game
+iter 3, The 1-th image: G,clip score 0.318: [CLS] a photo of the horse running in the main film self was considered
+iter 4, The 1-th image: G,clip score 0.329: [CLS] a photo of the horse running in the western series that is not
+iter 5, The 1-th image: G,clip score 0.294: [CLS] a photo of the horse is in the other movie and is not
+Finished in 5.014s
+The 1-th image: G
+final caption: a photo of the horse is in the other movie and is not
+best caption: a photo of the horse running in the western series that is not
+iter 1, The 1-th image: G,clip score 0.298: [CLS] a photo of the horse running by the front gate appeared chorus.
+iter 2, The 1-th image: G,clip score 0.278: [CLS] a photo of the horse standing at the main entrance can scoring game
+iter 3, The 1-th image: G,clip score 0.318: [CLS] a photo of the horse running in the main film self was considered
+iter 4, The 1-th image: G,clip score 0.329: [CLS] a photo of the horse running in the western series that is not
+iter 5, The 1-th image: G,clip score 0.294: [CLS] a photo of the horse is in the other movie and is not
+Finished in 3.172s
+The 1-th image: G
+final caption: a photo of the horse is in the other movie and is not
+best caption: a photo of the horse running in the western series that is not
+iter 1, The 1-th image: G,clip score 0.359: [CLS] a photo of the horse running meet surrounding multiple scenery shoots cover story
+iter 2, The 1-th image: G,clip score 0.376: [CLS] a photo of the horses running through movie country montana game page
+iter 3, The 1-th image: G,clip score 0.348: [CLS] a photo of the horses running through through loop the game where
+iter 4, The 1-th image: G,clip score 0.359: [CLS] a photo of the horses running on white call song game.
+iter 5, The 1-th image: G,clip score 0.352: [CLS] a photo of the horses running on active life shooting game includes
+Finished in 7.128s
+The 1-th image: G
+final caption: a photo of the horses running on active life shooting game includes
+best caption: a photo of the horses running through movie country montana game page
+iter 1, The 1-th image: G,clip score 0.349: [CLS] a photo of the horse running each game website cover photo magazine
+iter 2, The 1-th image: G,clip score 0.337: [CLS] a photo of the horse game in universal online film timex
+iter 3, The 1-th image: G,clip score 0.351: [CLS] a photo of the horse scene joins universal games networks connect for
+iter 4, The 1-th image: G,clip score 0.329: [CLS] a photo of the horse run via general story you saved world
+iter 5, The 1-th image: G,clip score 0.346: [CLS] a photo of the horse game from big pictures movie business week
+Finished in 6.463s
+The 1-th image: G
+final caption: a photo of the horse game from big pictures movie business week
+best caption: a photo of the horse scene joins universal games networks connect for
+iter 1, The 1-th image: G,clip score 0.353: [CLS] a photo of the horse running each group scene color [SEP]
+iter 2, The 1-th image: G,clip score 0.345: [CLS] a photo of the horse leads each running herd scene [SEP]
+iter 3, The 1-th image: G,clip score 0.333: [CLS] a photo of the horse is a cowboy chase formation [SEP]
+iter 4, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse depicts each animal moving take [SEP]
+iter 5, The 1-th image: G,clip score 0.341: [CLS] a photo of the horse depicts each colored running scene [SEP]
+Finished in 4.702s
+The 1-th image: G
+final caption: a photo of the horse depicts each colored running scene
+best caption: a photo of the horse running each group scene color
+Order_list:[2, 1, 3, 0]
+iter 1, The 1-th image: G,clip score 0.319: [CLS] a photo of the horse gang gun chase. [SEP]
+iter 2, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse wild game running. [SEP]
+iter 3, The 1-th image: G,clip score 0.324: [CLS] a photo of the horse wild horses run. [SEP]
+iter 4, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse playing western running. [SEP]
+iter 5, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse running western action. [SEP]
+Finished in 3.374s
+The 1-th image: G
+final caption: a photo of the horse running western action.
+best caption: a photo of the horse playing western running.
+iter 1, The 1-th image: G,clip score 0.322: [CLS] a photo of the horse running still featured. [SEP]
+iter 2, The 1-th image: G,clip score 0.295: [CLS] a photo of the horse is repeatedly animated. [SEP]
+iter 3, The 1-th image: G,clip score 0.309: [CLS] a photo of the horse is feature running. [SEP]
+iter 4, The 1-th image: G,clip score 0.320: [CLS] a photo of the horse plays cowboy contests. [SEP]
+iter 5, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse running town game. [SEP]
+Finished in 2.705s
+The 1-th image: G
+final caption: a photo of the horse running town game.
+best caption: a photo of the horse running town game.
+Order_list:[2, 1, 3, 0]
+iter 1, The 1-th image: G,clip score 0.319: [CLS] a photo of the horse gang gun chase. [SEP]
+iter 2, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse wild game running. [SEP]
+iter 3, The 1-th image: G,clip score 0.324: [CLS] a photo of the horse wild horses run. [SEP]
+iter 4, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse playing western running. [SEP]
+iter 5, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse running western action. [SEP]
+Finished in 2.429s
+The 1-th image: G
+final caption: a photo of the horse running western action.
+best caption: a photo of the horse playing western running.
+Order_list:[2, 1, 3, 0]
+iter 1, The 1-th image: G,clip score 0.319: [CLS] a photo of the mountain western riding team runs [MASK] [MASK] [SEP]
+iter 2, The 1-th image: G,clip score 0.322: [CLS] a photo of the mountain western conference being run [MASK] [MASK] [SEP]
+iter 3, The 1-th image: G,clip score 0.325: [CLS] a photo of the mountain horses riding being run [MASK] [MASK] [SEP]
+iter 4, The 1-th image: G,clip score 0.318: [CLS] a photo of the mountain gang scene being run [MASK] [MASK] [SEP]
+iter 5, The 1-th image: G,clip score 0.327: [CLS] a photo of the mountain western riders being run [MASK] [MASK] [SEP]
+Finished in 3.602s
+The 1-th image: G
+final caption: a photo of the mountain western riders being run
+best caption: a photo of the mountain western riders being run
+Order_list:[2, 1, 3, 0]
+iter 1, The 1-th image: G,clip score 0.319: [CLS] a photo of the mountain western riding team runs [MASK] [MASK] [SEP]
+iter 2, The 1-th image: G,clip score 0.322: [CLS] a photo of the mountain western conference being run [MASK] [MASK] [SEP]
+iter 3, The 1-th image: G,clip score 0.325: [CLS] a photo of the mountain horses riding being run [MASK] [MASK] [SEP]
+iter 4, The 1-th image: G,clip score 0.318: [CLS] a photo of the mountain gang scene being run [MASK] [MASK] [SEP]
+iter 5, The 1-th image: G,clip score 0.327: [CLS] a photo of the mountain western riders being run [MASK] [MASK] [SEP]
+Finished in 3.090s
+The 1-th image: G
+final caption: a photo of the mountain western riders being run
+best caption: a photo of the mountain western riders being run

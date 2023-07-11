@@ -1,0 +1,42 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='precise', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.02, beta=2, gamma=3.5, lm_temperature=0.1, num_iterations=5, lm_model='bert-large-uncased-whole-word-masking', match_model='kakaobrain/align-base', caption_img_path='/content/drive/MyDrive/im2txt/your_uploaded_image/bubble-speech-thinking-white-thought-bubble-transparent-11563067518ftfzxxil0h.png', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], theta=0)
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='precise', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.02, beta=2, gamma=3.5, lm_temperature=0.1, num_iterations=5, lm_model='bert-large-uncased-whole-word-masking', match_model='kakaobrain/align-base', caption_img_path='/content/drive/MyDrive/im2txt/your_uploaded_image/bubble-speech-thinking-white-thought-bubble-transparent-11563067518ftfzxxil0h.png', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], base_model='blip1', theta=0)
+iter 1, The 1-th image: b,clip score 0.083: [CLS] image of the cave with an large pot this is the largest at ujuju. [SEP]
+iter 2, The 1-th image: b,clip score 0.108: [CLS] image of the altar with a big pot this is the temple of subalvar. [SEP]
+iter 3, The 1-th image: b,clip score 0.093: [CLS] image of the goddess in a small stone niche inside the temple at devalur. [SEP]
+iter 4, The 1-th image: b,clip score 0.109: [CLS] image of the goddess in a small stone niche at a shrine in tukkaur. [SEP]
+iter 5, The 1-th image: b,clip score 0.127: [CLS] image of the goddess in a small stone font at a shrine near perunki. [SEP]
+Finished in 8.583s
+The 1-th image: b
+final caption: image of the goddess in a small stone font at a shrine near perunki.
+best caption: image of the goddess in a small stone font at a shrine near perunki.
+iter 1, The 1-th image: b,clip score 0.074: [CLS] image of the bathroom coffee and the small windows. [SEP]
+iter 2, The 1-th image: b,clip score 0.008: [CLS] image of the burning room outside the bedroom window. [SEP]
+iter 3, The 1-th image: b,clip score 0.049: [CLS] image of a darkened room framed her bedroom window. [SEP]
+iter 4, The 1-th image: b,clip score 0.020: [CLS] image of a living room in a high school. [SEP]
+iter 5, The 1-th image: b,clip score 0.058: [CLS] image of the common room at a high school. [SEP]
+Finished in 2.618s
+The 1-th image: b
+final caption: image of the common room at a high school.
+best caption: image of the bathroom coffee and the small windows.
+iter 1, The 1-th image: c,clip score 0.036: [CLS] image of a child eating a piece of meat. [SEP]
+iter 2, The 1-th image: c,clip score 0.006: [CLS] image of a man holding a piece of bread. [SEP]
+iter 3, The 1-th image: c,clip score 0.039: [CLS] image of a woman with a loaf of bread. [SEP]
+iter 4, The 1-th image: c,clip score 0.039: [CLS] image of a woman with a loaf of bread. [SEP]
+iter 5, The 1-th image: c,clip score 0.039: [CLS] image of a woman with a loaf of bread. [SEP]
+Finished in 5.618s
+The 1-th image: c
+final caption: image of a woman with a loaf of bread.
+best caption: image of a woman with a loaf of bread.
+iter 1, The 1-th image: l,clip score 0.038: [CLS] image of a man with a spear in his hand [SEP]
+iter 2, The 1-th image: l,clip score 0.065: [CLS] image of a giant with a dagger in his hand [SEP]
+iter 3, The 1-th image: l,clip score 0.054: [CLS] image of a man with a book in his hand [SEP]
+iter 4, The 1-th image: l,clip score 0.054: [CLS] image of a man with a book in his hand [SEP]
+iter 5, The 1-th image: l,clip score 0.054: [CLS] image of a man with a book in his hand [SEP]
+Finished in 2.302s
+The 1-th image: l
+final caption: image of a man with a book in his hand
+best caption: image of a giant with a dagger in his hand

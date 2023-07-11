@@ -1,0 +1,77 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.1, beta=1.5, gamma=5, lm_temperature=0.1, num_iterations=2, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='/content/drive/MyDrive/nlp_proj/text_control/gibbs_polish/flick8k_sample/img1.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], theta=5)
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.256: [CLS] image of a living room with a television and a messy fireplace with decorative fireplaces. [SEP]
+iter 2, The 1-th image: 139,clip score 0.254: [CLS] image of a living room with a television besides a large fireplace and two bureaus. [SEP]
+Finished in 6.407s
+The 1-th image: 139
+final caption: image of a living room with a television besides a large fireplace and two bureaus.
+best caption: image of a living room with a television and a messy fireplace with decorative fireplaces.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.321: [CLS] image of a brown bear sitting in the grass when there justs plain view radar. [SEP]
+iter 2, The 1-th image: 285,clip score 0.259: [CLS] image of a brown bear sits under her lawn until slowly receive any undercitying. [SEP]
+Finished in 4.582s
+The 1-th image: 285
+final caption: image of a brown bear sits under her lawn until slowly receive any undercitying.
+best caption: image of a brown bear sitting in the grass when there justs plain view radar.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.284: [CLS] image of a bedroom featuring a bed and a window above the bed no longer exists. [SEP]
+Finished in 4.855s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed no longer exists.
+best caption: image of a bedroom with a bed and a window around the door screamed attention behind.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.256: [CLS] image of a living room with a television and a messy fireplace with decorative fireplaces. [SEP]
+iter 2, The 1-th image: 139,clip score 0.254: [CLS] image of a living room with a television besides a large fireplace and two bureaus. [SEP]
+Finished in 6.794s
+The 1-th image: 139
+final caption: image of a living room with a television besides a large fireplace and two bureaus.
+best caption: image of a living room with a television and a messy fireplace with decorative fireplaces.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.321: [CLS] image of a brown bear sitting in the grass when there justs plain view radar. [SEP]
+iter 2, The 1-th image: 285,clip score 0.259: [CLS] image of a brown bear sits under her lawn until slowly receive any undercitying. [SEP]
+Finished in 6.134s
+The 1-th image: 285
+final caption: image of a brown bear sits under her lawn until slowly receive any undercitying.
+best caption: image of a brown bear sitting in the grass when there justs plain view radar.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.284: [CLS] image of a bedroom featuring a bed and a window above the bed no longer exists. [SEP]
+Finished in 5.914s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed no longer exists.
+best caption: image of a bedroom with a bed and a window around the door screamed attention behind.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.256: [CLS] image of a living room with a television and a messy fireplace with decorative fireplaces. [SEP]
+iter 2, The 1-th image: 139,clip score 0.254: [CLS] image of a living room with a television besides a large fireplace and two bureaus. [SEP]
+Finished in 8.009s
+The 1-th image: 139
+final caption: image of a living room with a television besides a large fireplace and two bureaus.
+best caption: image of a living room with a television and a messy fireplace with decorative fireplaces.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.321: [CLS] image of a brown bear sitting in the grass when there justs plain view radar. [SEP]
+iter 2, The 1-th image: 285,clip score 0.259: [CLS] image of a brown bear sits under her lawn until slowly receive any undercitying. [SEP]
+Finished in 10.163s
+The 1-th image: 285
+final caption: image of a brown bear sits under her lawn until slowly receive any undercitying.
+best caption: image of a brown bear sitting in the grass when there justs plain view radar.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.284: [CLS] image of a bedroom featuring a bed and a window above the bed no longer exists. [SEP]
+Finished in 7.178s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed no longer exists.
+best caption: image of a bedroom with a bed and a window around the door screamed attention behind.
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:

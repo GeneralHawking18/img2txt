@@ -1,0 +1,585 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.2, beta=1.5, gamma=5, lm_temperature=0.1, num_iterations=2, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='/content/drive/MyDrive/nlp_proj/text_control/gibbs_polish/flick8k_sample/img1.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], theta=5)
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.233: [CLS] image of a [PAD] room and simple couch and simple television and simple hearth fireplace simple hearth [SEP]
+iter 2, The 1-th image: 139,clip score 0.275: [CLS] image of an [PAD] of an individual house with familiar furniture with familiar television with familiar couch [SEP]
+Finished in 4.959s
+The 1-th image: 139
+final caption: image of an of an individual house with familiar furniture with familiar television with familiar couch
+best caption: image of an of an individual house with familiar furniture with familiar television with familiar couch
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.268: [CLS] image of a [PAD] a children bear facing tree sitting facing grass grass facing grass grass facing [SEP]
+iter 2, The 1-th image: 285,clip score 0.224: [CLS] image of a of an a baby under a teddy under a peaceful under grass grassy under [SEP]
+Finished in 4.689s
+The 1-th image: 285
+final caption: image of a of an a baby under a teddy under a peaceful under grass grassy under
+best caption: image of a a children bear facing tree sitting facing grass grass facing grass grass facing
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.288: [CLS] image of a inside of bedroom bed and an window and an window and an window and [SEP]
+iter 2, The 1-th image: 632,clip score 0.255: [CLS] image of of its of room bed with room bed with room bed with room window with [SEP]
+Finished in 5.224s
+The 1-th image: 632
+final caption: image of of its of room bed with room bed with room bed with room window with
+best caption: image of a inside of bedroom bed and an window and an window and an window and
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.233: [CLS] image of a [PAD] room and simple couch and simple television and simple hearth fireplace simple hearth [SEP]
+iter 2, The 1-th image: 139,clip score 0.275: [CLS] image of an [PAD] of an individual house with familiar furniture with familiar television with familiar couch [SEP]
+Finished in 4.549s
+The 1-th image: 139
+final caption: image of an of an individual house with familiar furniture with familiar television with familiar couch
+best caption: image of an of an individual house with familiar furniture with familiar television with familiar couch
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.268: [CLS] image of a [PAD] a children bear facing tree sitting facing grass grass facing grass grass facing [SEP]
+iter 2, The 1-th image: 285,clip score 0.224: [CLS] image of a of an a baby under a teddy under a peaceful under grass grassy under [SEP]
+Finished in 4.370s
+The 1-th image: 285
+final caption: image of a of an a baby under a teddy under a peaceful under grass grassy under
+best caption: image of a a children bear facing tree sitting facing grass grass facing grass grass facing
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.288: [CLS] image of a inside of bedroom bed and an window and an window and an window and [SEP]
+iter 2, The 1-th image: 632,clip score 0.255: [CLS] image of of its of room bed with room bed with room bed with room window with [SEP]
+Finished in 5.739s
+The 1-th image: 632
+final caption: image of of its of room bed with room bed with room bed with room window with
+best caption: image of a inside of bedroom bed and an window and an window and an window and
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 6.370s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.821s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.897s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.300s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 6.085s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.429s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.814s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 5.608s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.874s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.071s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 5.316s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.689s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.403s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 5.787s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.730s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.251: [CLS] image of a an home around a furniture surround a fireplace around a tv around a tv [SEP]
+iter 2, The 1-th image: 139,clip score 0.240: [CLS] image of other a again with a home featuring a fireplace with a fireplace with a tv [SEP]
+Finished in 5.628s
+The 1-th image: 139
+final caption: image of other a again with a home featuring a fireplace with a fireplace with a tv
+best caption: image of a an home around a furniture surround a fireplace around a tv around a tv
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.281: [CLS] image of an human ox in the field sitting meadow grass dog meadow grass boar meadow [SEP]
+iter 2, The 1-th image: 285,clip score 0.267: [CLS] image of a imageic male of the bison having the bison sitting in meadow sitting in [SEP]
+Finished in 4.516s
+The 1-th image: 285
+final caption: image of a imageic male of the bison having the bison sitting in meadow sitting in
+best caption: image of an human ox in the field sitting meadow grass dog meadow grass boar meadow
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.260: [CLS] image of a interior of bedroom bedroom and bedroom window and bedroom window bed bedroom within bed [SEP]
+iter 2, The 1-th image: 632,clip score 0.268: [CLS] image of an exposure shown an perspective depicting an perspective depicting an angle window room above house [SEP]
+Finished in 5.356s
+The 1-th image: 632
+final caption: image of an exposure shown an perspective depicting an perspective depicting an angle window room above house
+best caption: image of an exposure shown an perspective depicting an perspective depicting an angle window room above house
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.251: [CLS] image of a an home around a furniture surround a fireplace around a tv around a tv [SEP]
+iter 2, The 1-th image: 139,clip score 0.240: [CLS] image of other a again with a home featuring a fireplace with a fireplace with a tv [SEP]
+Finished in 5.396s
+The 1-th image: 139
+final caption: image of other a again with a home featuring a fireplace with a fireplace with a tv
+best caption: image of a an home around a furniture surround a fireplace around a tv around a tv
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.281: [CLS] image of an human ox in the field sitting meadow grass dog meadow grass boar meadow [SEP]
+iter 2, The 1-th image: 285,clip score 0.267: [CLS] image of a imageic male of the bison having the bison sitting in meadow sitting in [SEP]
+Finished in 4.275s
+The 1-th image: 285
+final caption: image of a imageic male of the bison having the bison sitting in meadow sitting in
+best caption: image of an human ox in the field sitting meadow grass dog meadow grass boar meadow
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.260: [CLS] image of a interior of bedroom bedroom and bedroom window and bedroom window bed bedroom within bed [SEP]
+iter 2, The 1-th image: 632,clip score 0.268: [CLS] image of an exposure shown an perspective depicting an perspective depicting an angle window room above house [SEP]
+Finished in 5.012s
+The 1-th image: 632
+final caption: image of an exposure shown an perspective depicting an perspective depicting an angle window room above house
+best caption: image of an exposure shown an perspective depicting an perspective depicting an angle window room above house
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.927s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 5.338s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.793s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 6.213s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.509s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.992s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 8.968s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 6.777s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.461s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.104s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.353s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.466s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.913s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.434s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 6.338s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.002s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 7.561s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.766s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 6.526s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 6.221s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.766s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.824s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.379s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.857s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 6.619s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.352s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.505s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.834s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.949s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.995s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.468s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 5.573s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.687s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 5.851s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.448s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.022s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.856s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.542s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 6.274s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.841s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 5.908s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 4.770s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 6.075s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.934s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.492s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.714s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 4.326s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 6.182s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.292: [CLS] image of a living room with a television and a large fire fireplace becamecreen scan. [SEP]
+iter 2, The 1-th image: 139,clip score 0.246: [CLS] image of a livingroom featuring a television and a roaring fireplace or greens paletteser. [SEP]
+Finished in 4.771s
+The 1-th image: 139
+final caption: image of a livingroom featuring a television and a roaring fireplace or greens paletteser.
+best caption: image of a living room with a television and a large fire fireplace becamecreen scan.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.258: [CLS] image of a brown bear sitting in the grass when there was no other surface available. [SEP]
+iter 2, The 1-th image: 285,clip score 0.264: [CLS] image of a brown bear sitting in the grass although there was no other image there. [SEP]
+Finished in 7.358s
+The 1-th image: 285
+final caption: image of a brown bear sitting in the grass although there was no other image there.
+best caption: image of a brown bear sitting in the grass although there was no other image there.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.295: [CLS] image of a bedroom with a bed and a window around the door screamed attention behind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.314: [CLS] image of a bedroom featuring a bed and a window above the bed drew from infrared. [SEP]
+Finished in 5.954s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.
+best caption: image of a bedroom featuring a bed and a window above the bed drew from infrared.

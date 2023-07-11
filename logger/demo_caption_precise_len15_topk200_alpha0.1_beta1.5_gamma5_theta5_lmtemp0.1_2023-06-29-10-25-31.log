@@ -1,0 +1,267 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.1, beta=1.5, gamma=5, lm_temperature=0.1, num_iterations=2, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='/content/nlp_proj/your_uploaded_image/img1.jpg', stop_words_path='stop_words.txt', add_extra_stopwords=[], theta=5)
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 4.962s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 6.250s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.438s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 5.310s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 5.874s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.367s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 6.089s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 5.101s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.396s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 5.995s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 4.690s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.788s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 6.027s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 4.713s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.768s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 4.810s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 5.755s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 5.349s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 5.504s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 4.808s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 6.234s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 6.274s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 4.761s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 5.660s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 5.901s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 7.186s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 5.157s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 4.878s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 5.010s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 6.887s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 4.865s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 6.451s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.557s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 4.898s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 6.348s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.607s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.

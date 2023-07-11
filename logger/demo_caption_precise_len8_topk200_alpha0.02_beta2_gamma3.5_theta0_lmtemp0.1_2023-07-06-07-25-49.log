@@ -1,0 +1,129 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='precise', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=8, candidate_k=200, alpha=0.02, beta=2, gamma=3.5, lm_temperature=0.1, num_iterations=5, lm_model='bert-large-uncased-whole-word-masking', match_model='kakaobrain/align-base', caption_img_path='/content/drive/MyDrive/im2txt/example/living_room.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], base_model='blip1', theta=0)
+iter 1, The 1-th image: l,clip score 0.029: [CLS] image of a living room with a table and the fireplace [SEP]
+iter 2, The 1-th image: l,clip score 0.076: [CLS] image of the sitting room with dining table and the fireplace [SEP]
+iter 3, The 1-th image: l,clip score 0.095: [CLS] image of the sitting room upper dining table by the fireplace [SEP]
+iter 4, The 1-th image: l,clip score 0.100: [CLS] image of the living room teared table by the fireplace [SEP]
+iter 5, The 1-th image: l,clip score 0.060: [CLS] image of the living room to the left of the fireplace [SEP]
+Finished in 5.211s
+The 1-th image: l
+final caption: image of the living room to the left of the fireplace
+best caption: image of the living room teared table by the fireplace
+iter 1, The 1-th image: l,clip score 0.029: [CLS] image of a living room with a table and the fireplace [SEP]
+iter 2, The 1-th image: l,clip score 0.076: [CLS] image of the sitting room with dining table and the fireplace [SEP]
+iter 3, The 1-th image: l,clip score 0.095: [CLS] image of the sitting room upper dining table by the fireplace [SEP]
+iter 4, The 1-th image: l,clip score 0.100: [CLS] image of the living room teared table by the fireplace [SEP]
+iter 5, The 1-th image: l,clip score 0.060: [CLS] image of the living room to the left of the fireplace [SEP]
+Finished in 2.855s
+The 1-th image: l
+final caption: image of the living room to the left of the fireplace
+best caption: image of the living room teared table by the fireplace
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.163, ctl score 0.049: [CLS] image of de lang from der tag art form web [SEP]
+iter 2, The 1-th image: l, clip score 0.163, ctl score 0.152: [CLS] image of gunther langi der tag art form. [SEP]
+iter 3, The 1-th image: l, clip score 0.167, ctl score 0.375: [CLS] image of gunther lohof der last artistic reich. [SEP]
+iter 4, The 1-th image: l, clip score 0.167, ctl score -0.125: [CLS] image of gunther hornberg der last wolfgang germany. [SEP]
+iter 5, The 1-th image: l, clip score 0.163, ctl score -0.018: [CLS] image of herman hornberg der west was germany. [SEP]
+Finished in 18.511s
+The 1-th image: l
+final caption: image of herman hornberg der west was germany.
+best caption: image of gunther lohof der last artistic reich.
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.163, ctl score 0.049: [CLS] image of de lang from der tag art form web [SEP]
+iter 2, The 1-th image: l, clip score 0.163, ctl score 0.152: [CLS] image of gunther langi der tag art form. [SEP]
+iter 3, The 1-th image: l, clip score 0.167, ctl score 0.375: [CLS] image of gunther lohof der last artistic reich. [SEP]
+iter 4, The 1-th image: l, clip score 0.167, ctl score -0.125: [CLS] image of gunther hornberg der last wolfgang germany. [SEP]
+iter 5, The 1-th image: l, clip score 0.163, ctl score -0.018: [CLS] image of herman hornberg der west was germany. [SEP]
+Finished in 16.956s
+The 1-th image: l
+final caption: image of herman hornberg der west was germany.
+best caption: image of gunther lohof der last artistic reich.
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.331, ctl score -0.094: [CLS] image of for family home interior view featuring snow mask [SEP]
+iter 2, The 1-th image: l, clip score 0.360, ctl score 0.596: [CLS] image of irish residential home interior colour with chimney figure [SEP]
+iter 3, The 1-th image: l, clip score 0.358, ctl score 0.154: [CLS] image of irish residential home interior picture featuring walking footprints [SEP]
+iter 4, The 1-th image: l, clip score 0.353, ctl score 0.062: [CLS] image of generic residential home interior photograph featuring human footprints [SEP]
+iter 5, The 1-th image: l, clip score 0.354, ctl score 0.104: [CLS] image of european residential home interior photograph featuring human footprints [SEP]
+Finished in 17.912s
+The 1-th image: l
+final caption: image of european residential home interior photograph featuring human footprints
+best caption: image of irish residential home interior colour with chimney figure
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.331, ctl score -0.094: [CLS] image of for family home interior view featuring snow mask [SEP]
+iter 2, The 1-th image: l, clip score 0.360, ctl score 0.596: [CLS] image of irish residential home interior colour with chimney figure [SEP]
+iter 3, The 1-th image: l, clip score 0.358, ctl score 0.154: [CLS] image of irish residential home interior picture featuring walking footprints [SEP]
+iter 4, The 1-th image: l, clip score 0.353, ctl score 0.062: [CLS] image of generic residential home interior photograph featuring human footprints [SEP]
+iter 5, The 1-th image: l, clip score 0.354, ctl score 0.104: [CLS] image of european residential home interior photograph featuring human footprints [SEP]
+Finished in 20.079s
+The 1-th image: l
+final caption: image of european residential home interior photograph featuring human footprints
+best caption: image of irish residential home interior colour with chimney figure
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.331, ctl score -0.094: [CLS] image of for family home interior view featuring snow mask [SEP]
+iter 2, The 1-th image: l, clip score 0.360, ctl score 0.596: [CLS] image of irish residential home interior colour with chimney figure [SEP]
+iter 3, The 1-th image: l, clip score 0.358, ctl score 0.154: [CLS] image of irish residential home interior picture featuring walking footprints [SEP]
+iter 4, The 1-th image: l, clip score 0.353, ctl score 0.062: [CLS] image of generic residential home interior photograph featuring human footprints [SEP]
+iter 5, The 1-th image: l, clip score 0.354, ctl score 0.104: [CLS] image of european residential home interior photograph featuring human footprints [SEP]
+Finished in 18.651s
+The 1-th image: l
+final caption: image of european residential home interior photograph featuring human footprints
+best caption: image of irish residential home interior colour with chimney figure
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.331, ctl score -0.094: [CLS] image of for family home interior view featuring snow mask [SEP]
+iter 2, The 1-th image: l, clip score 0.360, ctl score 0.596: [CLS] image of irish residential home interior colour with chimney figure [SEP]
+iter 3, The 1-th image: l, clip score 0.358, ctl score 0.154: [CLS] image of irish residential home interior picture featuring walking footprints [SEP]
+iter 4, The 1-th image: l, clip score 0.353, ctl score 0.062: [CLS] image of generic residential home interior photograph featuring human footprints [SEP]
+iter 5, The 1-th image: l, clip score 0.354, ctl score 0.104: [CLS] image of european residential home interior photograph featuring human footprints [SEP]
+Finished in 17.110s
+The 1-th image: l
+final caption: image of european residential home interior photograph featuring human footprints
+best caption: image of irish residential home interior colour with chimney figure
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 0.163, ctl score 0.049: [CLS] image of de lang from der tag art form web [SEP]
+iter 2, The 1-th image: l, clip score 0.163, ctl score 0.152: [CLS] image of gunther langi der tag art form. [SEP]
+iter 3, The 1-th image: l, clip score 0.167, ctl score 0.375: [CLS] image of gunther lohof der last artistic reich. [SEP]
+iter 4, The 1-th image: l, clip score 0.167, ctl score -0.125: [CLS] image of gunther hornberg der last wolfgang germany. [SEP]
+iter 5, The 1-th image: l, clip score 0.163, ctl score -0.018: [CLS] image of herman hornberg der west was germany. [SEP]
+Finished in 16.406s
+The 1-th image: l
+final caption: image of herman hornberg der west was germany.
+best caption: image of gunther lohof der last artistic reich.
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 1299.904, ctl score -0.032: [CLS] image of man in room view color for family meals [SEP]
+iter 2, The 1-th image: l, clip score 1233.787, ctl score 0.730: [CLS] image of man in room perfect color for nice surroundings [SEP]
+iter 3, The 1-th image: l, clip score 1351.607, ctl score 1.612: [CLS] image of man residential apartment excellent color settings good marketing [SEP]
+iter 4, The 1-th image: l, clip score 1224.001, ctl score 0.647: [CLS] image of happy residential apartment big color setting for video [SEP]
+iter 5, The 1-th image: l, clip score 1354.260, ctl score -0.208: [CLS] image of male owner apartment with red tinted home page [SEP]
+Finished in 17.112s
+The 1-th image: l
+final caption: image of male owner apartment with red tinted home page
+best caption: image of male owner apartment with red tinted home page
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 18.973, ctl score -0.032: [CLS] image of man in room view color for family meals [SEP]
+iter 2, The 1-th image: l, clip score 18.008, ctl score 0.730: [CLS] image of man in room perfect color for nice surroundings [SEP]
+iter 3, The 1-th image: l, clip score 19.728, ctl score 1.612: [CLS] image of man residential apartment excellent color settings good marketing [SEP]
+iter 4, The 1-th image: l, clip score 17.865, ctl score 0.647: [CLS] image of happy residential apartment big color setting for video [SEP]
+iter 5, The 1-th image: l, clip score 19.767, ctl score -0.208: [CLS] image of male owner apartment with red tinted home page [SEP]
+Finished in 17.130s
+The 1-th image: l
+final caption: image of male owner apartment with red tinted home page
+best caption: image of male owner apartment with red tinted home page
+Processing: /content/drive/MyDrive/im2txt/example/living_room.jpg
+Sample 0: 
+iter 1, The 1-th image: l, clip score 17.996, ctl score -0.032: [CLS] image of man in room view color for the apartment [SEP]
+Finished in 2.311s
+The 1-th image: l
+final caption: image of man in room view color for the apartment
+best caption: image of man in room view color for the apartment

@@ -1,0 +1,7 @@
+colorlog
+nltk
+transformers
+torch
+torchvision
+salesforce-lavis
+

@@ -1,0 +1,8 @@
+colorlog
+nltk
+transformers==4.30.0
+torch
+torchvision
+salesforce-lavis
+labml-nn
+git+https://github.com/facebookresearch/segment-anything.git

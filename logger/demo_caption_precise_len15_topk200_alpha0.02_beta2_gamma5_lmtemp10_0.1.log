@@ -1,0 +1,139 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.02, beta=2, gamma=5, lm_temperature=0.1, num_iterations=2, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='/content/nlp_proj/your_uploaded_image/img1.jpg', stop_words_path='stop_words.txt', add_extra_stopwords=[], theta=10)
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.267: [CLS] image of a woman standing in a living room next to no warm fireplace surrounding her. [SEP]
+iter 2, The 1-th image: 139,clip score 0.252: [CLS] image of a woman standing in an living room next to a deep fireplace at her. [SEP]
+Finished in 5.285s
+The 1-th image: 139
+final caption: image of a woman standing in an living room next to a deep fireplace at her.
+best caption: image of a woman standing in a living room next to no warm fireplace surrounding her.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.277: [CLS] image of my brown brown bear standing on top over myself among green field landscape greens. [SEP]
+iter 2, The 1-th image: 285,clip score 0.288: [CLS] image of a psychotic brown bear standing along standing it example large green field landscape above. [SEP]
+Finished in 4.971s
+The 1-th image: 285
+final caption: image of a psychotic brown bear standing along standing it example large green field landscape above.
+best caption: image of a psychotic brown bear standing along standing it example large green field landscape above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.283: [CLS] image of her bedroom with a bed and a bookcase resting on hard beddie. [SEP]
+iter 2, The 1-th image: 632,clip score 0.278: [CLS] image of her bedroom witheredwart with a book shelf and a soft bed ending. [SEP]
+Finished in 6.357s
+The 1-th image: 632
+final caption: image of her bedroom witheredwart with a book shelf and a soft bed ending.
+best caption: image of her bedroom with a bed and a bookcase resting on hard beddie.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.267: [CLS] image of a woman standing in a living room next to no warm fireplace surrounding her. [SEP]
+iter 2, The 1-th image: 139,clip score 0.252: [CLS] image of a woman standing in an living room next to a deep fireplace at her. [SEP]
+Finished in 6.600s
+The 1-th image: 139
+final caption: image of a woman standing in an living room next to a deep fireplace at her.
+best caption: image of a woman standing in a living room next to no warm fireplace surrounding her.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.277: [CLS] image of my brown brown bear standing on top over myself among green field landscape greens. [SEP]
+iter 2, The 1-th image: 285,clip score 0.288: [CLS] image of a psychotic brown bear standing along standing it example large green field landscape above. [SEP]
+Finished in 4.942s
+The 1-th image: 285
+final caption: image of a psychotic brown bear standing along standing it example large green field landscape above.
+best caption: image of a psychotic brown bear standing along standing it example large green field landscape above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.283: [CLS] image of her bedroom with a bed and a bookcase resting on hard beddie. [SEP]
+iter 2, The 1-th image: 632,clip score 0.278: [CLS] image of her bedroom witheredwart with a book shelf and a soft bed ending. [SEP]
+Finished in 4.759s
+The 1-th image: 632
+final caption: image of her bedroom witheredwart with a book shelf and a soft bed ending.
+best caption: image of her bedroom with a bed and a bookcase resting on hard beddie.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 4.865s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 6.312s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 4.734s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.245: [CLS] image of a woman standing in a living room next to a fire fireplaces burning. [SEP]
+iter 2, The 1-th image: 139,clip score 0.255: [CLS] image of a woman standing in the living room next to a few fireplaces flame. [SEP]
+Finished in 6.321s
+The 1-th image: 139
+final caption: image of a woman standing in the living room next to a few fireplaces flame.
+best caption: image of a woman standing in the living room next to a few fireplaces flame.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.260: [CLS] image of a large brown bear standing on top of a lush green field screamed above. [SEP]
+iter 2, The 1-th image: 285,clip score 0.228: [CLS] image of a mature brown bear standing on top while a lush green field stretched ahead. [SEP]
+Finished in 7.560s
+The 1-th image: 285
+final caption: image of a mature brown bear standing on top while a lush green field stretched ahead.
+best caption: image of a large brown bear standing on top of a lush green field screamed above.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.257: [CLS] image of a bedroom with a bed and a bookcase [PAD] a small reading shelf. [SEP]
+iter 2, The 1-th image: 632,clip score 0.266: [CLS] image of a bedroom with a bed or a book or even a small wooden shelf. [SEP]
+Finished in 6.399s
+The 1-th image: 632
+final caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+best caption: image of a bedroom with a bed or a book or even a small wooden shelf.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.306: [CLS] image of a woman standing in a messy room next to a fire fireplace appeared next. [SEP]
+iter 2, The 1-th image: 139,clip score 0.327: [CLS] image of a woman waiting in a small parlor next to a large fireplace now distorted. [SEP]
+Finished in 6.616s
+The 1-th image: 139
+final caption: image of a woman waiting in a small parlor next to a large fireplace now distorted.
+best caption: image of a woman waiting in a small parlor next to a large fireplace now distorted.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.294: [CLS] image of a large brown bear standing on top of a fluorescent green space nearby forest. [SEP]
+iter 2, The 1-th image: 285,clip score 0.315: [CLS] image of a large brown bear sitting on top of a large green field of pixels. [SEP]
+Finished in 5.709s
+The 1-th image: 285
+final caption: image of a large brown bear sitting on top of a large green field of pixels.
+best caption: image of a large brown bear sitting on top of a large green field of pixels.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.320: [CLS] image of a bedroom with a bed and a bookheading flashed to her mind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.334: [CLS] image of a bedroom featuring a bed and a beheader blurred through her mind. [SEP]
+Finished in 5.797s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a beheader blurred through her mind.
+best caption: image of a bedroom featuring a bed and a beheader blurred through her mind.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.306: [CLS] image of a woman standing in a messy room next to a fire fireplace appeared next. [SEP]
+iter 2, The 1-th image: 139,clip score 0.327: [CLS] image of a woman waiting in a small parlor next to a large fireplace now distorted. [SEP]
+Finished in 4.863s
+The 1-th image: 139
+final caption: image of a woman waiting in a small parlor next to a large fireplace now distorted.
+best caption: image of a woman waiting in a small parlor next to a large fireplace now distorted.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.294: [CLS] image of a large brown bear standing on top of a fluorescent green space nearby forest. [SEP]
+iter 2, The 1-th image: 285,clip score 0.315: [CLS] image of a large brown bear sitting on top of a large green field of pixels. [SEP]
+Finished in 4.678s
+The 1-th image: 285
+final caption: image of a large brown bear sitting on top of a large green field of pixels.
+best caption: image of a large brown bear sitting on top of a large green field of pixels.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.320: [CLS] image of a bedroom with a bed and a bookheading flashed to her mind. [SEP]
+iter 2, The 1-th image: 632,clip score 0.334: [CLS] image of a bedroom featuring a bed and a beheader blurred through her mind. [SEP]
+Finished in 5.692s
+The 1-th image: 632
+final caption: image of a bedroom featuring a bed and a beheader blurred through her mind.
+best caption: image of a bedroom featuring a bed and a beheader blurred through her mind.

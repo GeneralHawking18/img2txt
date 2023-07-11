@@ -1,0 +1,625 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='precise', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=15, candidate_k=200, alpha=0.02, beta=2, gamma=3.5, lm_temperature=0.1, num_iterations=5, lm_model='bert-large-uncased-whole-word-masking', match_model='kakaobrain/align-base', caption_img_path='/kaggle/working/nlp_proj/text_control/gibbs_polish/flick8k_sample/img1.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], theta=0)
+Sample 1: 
+The 1-th batch:
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.321: [CLS] image of a girl standing in the living room next to a strange pink colored table. [SEP]
+iter 2, The 1-th image: 139,clip score 0.325: [CLS] image of the girl standing in the living room next to the small pink coffee pot. [SEP]
+iter 3, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+iter 4, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+iter 5, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+Finished in 3.732s
+The 1-th image: 139
+final caption: image of the girl standing in the living room next to the bright yellow coffee pot.
+best caption: image of the girl standing in the living room next to the small pink coffee pot.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.315: [CLS] image of a large brown bear sitting on top of a light colored plastic gazebo. [SEP]
+iter 2, The 1-th image: 285,clip score 0.242: [CLS] image of a fat brown head resting on top of a light brown wooden gazebo. [SEP]
+iter 3, The 1-th image: 285,clip score 0.247: [CLS] image of a light brown head sitting on top of a light brown wood lood. [SEP]
+iter 4, The 1-th image: 285,clip score 0.217: [CLS] image of a large male figure sitting on top of a heavy brown plastic tripod. [SEP]
+iter 5, The 1-th image: 285,clip score 0.259: [CLS] image of a large bulky body resting on top of a large brown wooden stod. [SEP]
+Finished in 4.026s
+The 1-th image: 285
+final caption: image of a large bulky body resting on top of a large brown wooden stod.
+best caption: image of a large brown bear sitting on top of a light colored plastic gazebo.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.387: [CLS] image of a bedroom outside window rocking against the book collection of her bed wall fan. [SEP]
+iter 2, The 1-th image: 632,clip score 0.351: [CLS] image of the large bay window nestled in the eclectic quilt from a distant ceiling fan. [SEP]
+iter 3, The 1-th image: 632,clip score 0.339: [CLS] image of a large bay window draped with an oversized blanket reading the occasional overhead light. [SEP]
+iter 4, The 1-th image: 632,clip score 0.387: [CLS] image of a small bedroom window overgrown with an afghan of reading and dim overhead lighting. [SEP]
+iter 5, The 1-th image: 632,clip score 0.386: [CLS] image of a large bay bedroom window with an abundance of books and low morning light. [SEP]
+Finished in 5.924s
+The 1-th image: 632
+final caption: image of a large bay bedroom window with an abundance of books and low morning light.
+best caption: image of a bedroom outside window rocking against the book collection of her bed wall fan.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 5.190: [CLS] image of the woman standing in the dining room next to the tea book ash kept. [SEP]
+iter 2, The 1-th image: 139,clip score 3.170: [CLS] image of the woman standing in the dining room next to the heavy book she carries. [SEP]
+iter 3, The 1-th image: 139,clip score 5.840: [CLS] image of the woman standing in the sitting room next to the ancient books she carried. [SEP]
+iter 4, The 1-th image: 139,clip score 5.050: [CLS] image of the woman standing in her living room reading through the comic books he found. [SEP]
+iter 5, The 1-th image: 139,clip score 6.218: [CLS] image of a man standing in his living room going through some comic books he found. [SEP]
+Finished in 3.918s
+The 1-th image: 139
+final caption: image of a man standing in his living room going through some comic books he found.
+best caption: image of a man standing in his living room going through some comic books he found.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 6.298: [CLS] image of a shaggy brown sheep sitting on top of a small wheat round table no longer [SEP]
+iter 2, The 1-th image: 285,clip score 5.552: [CLS] image of a lone mountain sheep sitting on top of a small oak dining round night. [SEP]
+iter 3, The 1-th image: 285,clip score 3.020: [CLS] image of a lonely mountain sheep sitting on top of a great mountain dog at night. [SEP]
+iter 4, The 1-th image: 285,clip score 5.847: [CLS] image of a great mountain cat sleeping on top of a great white cloud at night. [SEP]
+iter 5, The 1-th image: 285,clip score 4.711: [CLS] image of a great white dog riding on top of the great white cloud at night. [SEP]
+Finished in 4.543s
+The 1-th image: 285
+final caption: image of a great white dog riding on top of the great white cloud at night.
+best caption: image of a shaggy brown sheep sitting on top of a small wheat round table no longer
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 7.781: [CLS] image of a room with a chair climbing a book page from the book white flag. [SEP]
+iter 2, The 1-th image: 632,clip score 7.065: [CLS] image of a table chair a mountain garden a single page from the magazine israeli photography. [SEP]
+iter 3, The 1-th image: 632,clip score 5.792: [CLS] image of a blue rose a botanical illustration it is taken from the archive of australia. [SEP]
+iter 4, The 1-th image: 632,clip score 3.928: [CLS] image of a yellow is a botanical illustration and is available from internet archive institute collection. [SEP]
+iter 5, The 1-th image: 632,clip score 7.298: [CLS] image of flower spring is a flower spring that is obtained from online botanical spring catalog. [SEP]
+Finished in 5.712s
+The 1-th image: 632
+final caption: image of flower spring is a flower spring that is obtained from online botanical spring catalog.
+best caption: image of a room with a chair climbing a book page from the book white flag.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.321: [CLS] image of a girl standing in the living room next to a strange pink colored table. [SEP]
+iter 2, The 1-th image: 139,clip score 0.325: [CLS] image of the girl standing in the living room next to the small pink coffee pot. [SEP]
+iter 3, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+iter 4, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+iter 5, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+Finished in 3.990s
+The 1-th image: 139
+final caption: image of the girl standing in the living room next to the bright yellow coffee pot.
+best caption: image of the girl standing in the living room next to the small pink coffee pot.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.315: [CLS] image of a large brown bear sitting on top of a light colored plastic gazebo. [SEP]
+iter 2, The 1-th image: 285,clip score 0.242: [CLS] image of a fat brown head resting on top of a light brown wooden gazebo. [SEP]
+iter 3, The 1-th image: 285,clip score 0.247: [CLS] image of a light brown head sitting on top of a light brown wood lood. [SEP]
+iter 4, The 1-th image: 285,clip score 0.217: [CLS] image of a large male figure sitting on top of a heavy brown plastic tripod. [SEP]
+iter 5, The 1-th image: 285,clip score 0.259: [CLS] image of a large bulky body resting on top of a large brown wooden stod. [SEP]
+Finished in 4.085s
+The 1-th image: 285
+final caption: image of a large bulky body resting on top of a large brown wooden stod.
+best caption: image of a large brown bear sitting on top of a light colored plastic gazebo.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.387: [CLS] image of a bedroom outside window rocking against the book collection of her bed wall fan. [SEP]
+iter 2, The 1-th image: 632,clip score 0.351: [CLS] image of the large bay window nestled in the eclectic quilt from a distant ceiling fan. [SEP]
+iter 3, The 1-th image: 632,clip score 0.339: [CLS] image of a large bay window draped with an oversized blanket reading the occasional overhead light. [SEP]
+iter 4, The 1-th image: 632,clip score 0.387: [CLS] image of a small bedroom window overgrown with an afghan of reading and dim overhead lighting. [SEP]
+iter 5, The 1-th image: 632,clip score 0.386: [CLS] image of a large bay bedroom window with an abundance of books and low morning light. [SEP]
+Finished in 6.110s
+The 1-th image: 632
+final caption: image of a large bay bedroom window with an abundance of books and low morning light.
+best caption: image of a bedroom outside window rocking against the book collection of her bed wall fan.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 5.190: [CLS] image of the woman standing in the dining room next to the tea book ash kept. [SEP]
+iter 2, The 1-th image: 139,clip score 3.170: [CLS] image of the woman standing in the dining room next to the heavy book she carries. [SEP]
+iter 3, The 1-th image: 139,clip score 5.840: [CLS] image of the woman standing in the sitting room next to the ancient books she carried. [SEP]
+iter 4, The 1-th image: 139,clip score 5.050: [CLS] image of the woman standing in her living room reading through the comic books he found. [SEP]
+iter 5, The 1-th image: 139,clip score 6.218: [CLS] image of a man standing in his living room going through some comic books he found. [SEP]
+Finished in 3.818s
+The 1-th image: 139
+final caption: image of a man standing in his living room going through some comic books he found.
+best caption: image of a man standing in his living room going through some comic books he found.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 6.298: [CLS] image of a shaggy brown sheep sitting on top of a small wheat round table no longer [SEP]
+iter 2, The 1-th image: 285,clip score 5.552: [CLS] image of a lone mountain sheep sitting on top of a small oak dining round night. [SEP]
+iter 3, The 1-th image: 285,clip score 3.020: [CLS] image of a lonely mountain sheep sitting on top of a great mountain dog at night. [SEP]
+iter 4, The 1-th image: 285,clip score 5.847: [CLS] image of a great mountain cat sleeping on top of a great white cloud at night. [SEP]
+iter 5, The 1-th image: 285,clip score 4.711: [CLS] image of a great white dog riding on top of the great white cloud at night. [SEP]
+Finished in 4.879s
+The 1-th image: 285
+final caption: image of a great white dog riding on top of the great white cloud at night.
+best caption: image of a shaggy brown sheep sitting on top of a small wheat round table no longer
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 7.781: [CLS] image of a room with a chair climbing a book page from the book white flag. [SEP]
+iter 2, The 1-th image: 632,clip score 7.065: [CLS] image of a table chair a mountain garden a single page from the magazine israeli photography. [SEP]
+iter 3, The 1-th image: 632,clip score 5.792: [CLS] image of a blue rose a botanical illustration it is taken from the archive of australia. [SEP]
+iter 4, The 1-th image: 632,clip score 3.928: [CLS] image of a yellow is a botanical illustration and is available from internet archive institute collection. [SEP]
+iter 5, The 1-th image: 632,clip score 7.298: [CLS] image of flower spring is a flower spring that is obtained from online botanical spring catalog. [SEP]
+Finished in 5.227s
+The 1-th image: 632
+final caption: image of flower spring is a flower spring that is obtained from online botanical spring catalog.
+best caption: image of a room with a chair climbing a book page from the book white flag.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 5.190: [CLS] image of the woman standing in the dining room next to the tea book ash kept. [SEP]
+iter 2, The 1-th image: 139,clip score 3.170: [CLS] image of the woman standing in the dining room next to the heavy book she carries. [SEP]
+iter 3, The 1-th image: 139,clip score 5.840: [CLS] image of the woman standing in the sitting room next to the ancient books she carried. [SEP]
+iter 4, The 1-th image: 139,clip score 5.050: [CLS] image of the woman standing in her living room reading through the comic books he found. [SEP]
+iter 5, The 1-th image: 139,clip score 6.218: [CLS] image of a man standing in his living room going through some comic books he found. [SEP]
+Finished in 3.728s
+The 1-th image: 139
+final caption: image of a man standing in his living room going through some comic books he found.
+best caption: image of a man standing in his living room going through some comic books he found.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 6.298: [CLS] image of a shaggy brown sheep sitting on top of a small wheat round table no longer [SEP]
+iter 2, The 1-th image: 285,clip score 5.552: [CLS] image of a lone mountain sheep sitting on top of a small oak dining round night. [SEP]
+iter 3, The 1-th image: 285,clip score 3.020: [CLS] image of a lonely mountain sheep sitting on top of a great mountain dog at night. [SEP]
+iter 4, The 1-th image: 285,clip score 5.847: [CLS] image of a great mountain cat sleeping on top of a great white cloud at night. [SEP]
+iter 5, The 1-th image: 285,clip score 4.711: [CLS] image of a great white dog riding on top of the great white cloud at night. [SEP]
+Finished in 4.473s
+The 1-th image: 285
+final caption: image of a great white dog riding on top of the great white cloud at night.
+best caption: image of a shaggy brown sheep sitting on top of a small wheat round table no longer
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 7.781: [CLS] image of a room with a chair climbing a book page from the book white flag. [SEP]
+iter 2, The 1-th image: 632,clip score 5.593: [CLS] image of a table chair a mountain garden with a view climbing a tall white mountain. [SEP]
+iter 3, The 1-th image: 632,clip score 6.757: [CLS] image of a table in a flower garden dominating a boy climbing a little blue pot. [SEP]
+iter 4, The 1-th image: 632,clip score 6.420: [CLS] image of a boy in a little shop imagined a man holding a big flower box crying [SEP]
+iter 5, The 1-th image: 632,clip score 4.779: [CLS] image of a child in a flower bed calling a man with a large wooden box. [SEP]
+Finished in 5.096s
+The 1-th image: 632
+final caption: image of a child in a flower bed calling a man with a large wooden box.
+best caption: image of a room with a chair climbing a book page from the book white flag.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.321: [CLS] image of a girl standing in the living room next to a strange pink colored table. [SEP]
+iter 2, The 1-th image: 139,clip score 0.325: [CLS] image of the girl standing in the living room next to the small pink coffee pot. [SEP]
+iter 3, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+iter 4, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+iter 5, The 1-th image: 139,clip score 0.324: [CLS] image of the girl standing in the living room next to the bright yellow coffee pot. [SEP]
+Finished in 3.863s
+The 1-th image: 139
+final caption: image of the girl standing in the living room next to the bright yellow coffee pot.
+best caption: image of the girl standing in the living room next to the small pink coffee pot.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.315: [CLS] image of a large brown bear sitting on top of a light colored plastic gazebo. [SEP]
+iter 2, The 1-th image: 285,clip score 0.242: [CLS] image of a fat brown head resting on top of a light brown wooden gazebo. [SEP]
+iter 3, The 1-th image: 285,clip score 0.247: [CLS] image of a light brown head sitting on top of a light brown wood lood. [SEP]
+iter 4, The 1-th image: 285,clip score 0.217: [CLS] image of a large male figure sitting on top of a heavy brown plastic tripod. [SEP]
+iter 5, The 1-th image: 285,clip score 0.259: [CLS] image of a large bulky body resting on top of a large brown wooden stod. [SEP]
+Finished in 3.825s
+The 1-th image: 285
+final caption: image of a large bulky body resting on top of a large brown wooden stod.
+best caption: image of a large brown bear sitting on top of a light colored plastic gazebo.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.387: [CLS] image of a bedroom outside window rocking against the book collection of her bed wall fan. [SEP]
+iter 2, The 1-th image: 632,clip score 0.351: [CLS] image of the large bay window nestled in the eclectic quilt from a distant ceiling fan. [SEP]
+iter 3, The 1-th image: 632,clip score 0.352: [CLS] image of a wide open window draped with an oversized blanket reading the occasional ceiling fan. [SEP]
+iter 4, The 1-th image: 632,clip score 0.319: [CLS] image of a wide open area overgrown with an old man and the open ceiling fan. [SEP]
+iter 5, The 1-th image: 632,clip score 0.357: [CLS] image of the small bed space overgrown with an old quilt studying an electric ceiling fan. [SEP]
+Finished in 5.203s
+The 1-th image: 632
+final caption: image of the small bed space overgrown with an old quilt studying an electric ceiling fan.
+best caption: image of a bedroom outside window rocking against the book collection of her bed wall fan.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.289: [CLS] image of a woman standing in a small room next to a big fire place sitting down [SEP]
+iter 2, The 1-th image: 139,clip score 0.280: [CLS] image of a woman standing in a warm room next to a nice comfortable sofa dressed as [SEP]
+iter 3, The 1-th image: 139,clip score 0.278: [CLS] image of a woman standing in a living room next to a very comfortable chair burned. [SEP]
+iter 4, The 1-th image: 139,clip score 0.295: [CLS] image of a woman standing in a living room next to a large easy fireplace fire. [SEP]
+iter 5, The 1-th image: 139,clip score 0.285: [CLS] image of a woman sitting in the living room tending to a large gas hearth fireplace. [SEP]
+Finished in 4.499s
+The 1-th image: 139
+final caption: image of a woman sitting in the living room tending to a large gas hearth fireplace.
+best caption: image of a woman standing in a living room next to a large easy fireplace fire.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.328: [CLS] image of a large brown bear standing on top of a lush green ground smiling at you [SEP]
+iter 2, The 1-th image: 285,clip score 0.298: [CLS] image of a large brown bear standing on top of a lush green forest looking at. [SEP]
+iter 3, The 1-th image: 285,clip score 0.330: [CLS] image of a large brown bear standing on top of a lush green field smile itself away [SEP]
+iter 4, The 1-th image: 285,clip score 0.287: [CLS] image of a large brown bear standing on top of a lush green field tearing grass. [SEP]
+iter 5, The 1-th image: 285,clip score 0.290: [CLS] image of a large brown bear standing on top of a lush green field of grass. [SEP]
+Finished in 3.929s
+The 1-th image: 285
+final caption: image of a large brown bear standing on top of a lush green field of grass.
+best caption: image of a large brown bear standing on top of a lush green field smile itself away
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.356: [CLS] image of a bedroom with a bed and a book per to in a small room. [SEP]
+iter 2, The 1-th image: 632,clip score 0.320: [CLS] image of a bedroom with a bed and a desk next door in a small room. [SEP]
+iter 3, The 1-th image: 632,clip score 0.326: [CLS] image of a bedroom with a bed and a dresser next door in a small room. [SEP]
+iter 4, The 1-th image: 632,clip score 0.356: [CLS] image of a room with a bed and a dresser bedroom book in a quiet corner. [SEP]
+iter 5, The 1-th image: 632,clip score 0.326: [CLS] image of a room with a bed plus a large open closet in a back corner. [SEP]
+Finished in 4.715s
+The 1-th image: 632
+final caption: image of a room with a bed plus a large open closet in a back corner.
+best caption: image of a bedroom with a bed and a book per to in a small room.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.269: [CLS] image of a woman standing in a small room next to a big fire place fire. [SEP]
+iter 2, The 1-th image: 139,clip score 0.277: [CLS] image of a woman sitting in a warm room next to a real fire place fire. [SEP]
+iter 3, The 1-th image: 139,clip score 0.288: [CLS] image of a woman sitting in a living room next to a place fire place fire. [SEP]
+iter 4, The 1-th image: 139,clip score 0.287: [CLS] image of a woman standing in a small room next to fire place fire place room. [SEP]
+iter 5, The 1-th image: 139,clip score 0.316: [CLS] image of a woman standing in a living room next to fire place in living room. [SEP]
+Finished in 5.476s
+The 1-th image: 139
+final caption: image of a woman standing in a living room next to fire place in living room.
+best caption: image of a woman standing in a living room next to fire place in living room.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.328: [CLS] image of a large brown bear standing on top of a lush green ground smiling at you [SEP]
+iter 2, The 1-th image: 285,clip score 0.298: [CLS] image of a large brown bear standing on top of a lush green forest looking at. [SEP]
+iter 3, The 1-th image: 285,clip score 0.334: [CLS] image of a large brown bear standing on top of a lush green field smile itself. [SEP]
+iter 4, The 1-th image: 285,clip score 0.297: [CLS] image of a large brown bear standing on top of a lush green forest by itself. [SEP]
+iter 5, The 1-th image: 285,clip score 0.292: [CLS] image of a large brown bear standing on top of a lush green field by itself. [SEP]
+Finished in 4.033s
+The 1-th image: 285
+final caption: image of a large brown bear standing on top of a lush green field by itself.
+best caption: image of a large brown bear standing on top of a lush green field smile itself.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.351: [CLS] image of a bedroom with a bed and a book by a home insergie. [SEP]
+iter 2, The 1-th image: 632,clip score 0.341: [CLS] image of a bedroom is a collection and a book for the magazine beatoolf. [SEP]
+iter 3, The 1-th image: 632,clip score 0.250: [CLS] image of a magazine is a collection and a poster from the band scwork. [SEP]
+iter 4, The 1-th image: 632,clip score 0.219: [CLS] image of the wall is a song and a video by the band bjork. [SEP]
+iter 5, The 1-th image: 632,clip score 0.218: [CLS] image of a man is a song and music video by icelandic singer bjork. [SEP]
+Finished in 4.319s
+The 1-th image: 632
+final caption: image of a man is a song and music video by icelandic singer bjork.
+best caption: image of a bedroom with a bed and a book by a home insergie.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.269: [CLS] image of a woman standing in a small room next to a big fire place fire. [SEP]
+iter 2, The 1-th image: 139,clip score 0.301: [CLS] image of a woman sitting in a quiet apartment next to a gas warm log fire. [SEP]
+iter 3, The 1-th image: 139,clip score 0.282: [CLS] image of a woman alone in a small room next to a nice warm wood fireplace. [SEP]
+iter 4, The 1-th image: 139,clip score 0.304: [CLS] image of a woman standing in a living room next to a lovely dark wood fireplace. [SEP]
+iter 5, The 1-th image: 139,clip score 0.292: [CLS] image of the woman standing in a living room adjacent to a large dark wood fireplace. [SEP]
+Finished in 4.723s
+The 1-th image: 139
+final caption: image of the woman standing in a living room adjacent to a large dark wood fireplace.
+best caption: image of a woman standing in a living room next to a lovely dark wood fireplace.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.328: [CLS] image of a large brown bear standing on top of a lush green ground smiling at you [SEP]
+iter 2, The 1-th image: 285,clip score 0.313: [CLS] image of a large brown bear standing on top of a lush green forest looking at you [SEP]
+iter 3, The 1-th image: 285,clip score 0.310: [CLS] image of a large brown bear standing on top of a lush green field looking at you [SEP]
+iter 4, The 1-th image: 285,clip score 0.310: [CLS] image of a large brown bear standing on top of a lush green field looking at you [SEP]
+iter 5, The 1-th image: 285,clip score 0.310: [CLS] image of a large brown bear standing on top of a lush green field looking at you [SEP]
+Finished in 3.684s
+The 1-th image: 285
+final caption: image of a large brown bear standing on top of a lush green field looking at you
+best caption: image of a large brown bear standing on top of a lush green ground smiling at you
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.351: [CLS] image of a bedroom with a bed and a book by a home insergie. [SEP]
+iter 2, The 1-th image: 632,clip score 0.341: [CLS] image of a bedroom is a collection and a book for the magazine beatoolf. [SEP]
+iter 3, The 1-th image: 632,clip score 0.258: [CLS] image of a magazine is a collection and a blog by the musician wolf bott. [SEP]
+iter 4, The 1-th image: 632,clip score 0.267: [CLS] image of a book is a book and a painting by american artist david kews. [SEP]
+iter 5, The 1-th image: 632,clip score 0.285: [CLS] image of a house is a book and a painting by the artist john ruskin. [SEP]
+Finished in 4.489s
+The 1-th image: 632
+final caption: image of a house is a book and a painting by the artist john ruskin.
+best caption: image of a bedroom with a bed and a book by a home insergie.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 1.861: [CLS] image of a woman standing in a small room next to a large fireplace overlooking her home [SEP]
+iter 2, The 1-th image: 139,clip score 2.090: [CLS] image of the woman standing in a living room adjacent to a large window flanking her. [SEP]
+iter 3, The 1-th image: 139,clip score 0.536: [CLS] image of a woman standing in a living room next to a large group around her. [SEP]
+iter 4, The 1-th image: 139,clip score -0.205: [CLS] image of a woman standing in a small room next to a large fire around her. [SEP]
+iter 5, The 1-th image: 139,clip score 0.749: [CLS] image of a woman seated in a living room standing with a roaring fire before her. [SEP]
+Finished in 4.076s
+The 1-th image: 139
+final caption: image of a woman seated in a living room standing with a roaring fire before her.
+best caption: image of the woman standing in a living room adjacent to a large window flanking her.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 2.363: [CLS] image of a large polar bear resting on top of a lush green hill in norway. [SEP]
+iter 2, The 1-th image: 285,clip score 0.801: [CLS] image of a brown polar bear standing on top of a large green hill in norway. [SEP]
+iter 3, The 1-th image: 285,clip score 0.801: [CLS] image of a brown polar bear standing on top of a large green hill in norway. [SEP]
+iter 4, The 1-th image: 285,clip score 0.801: [CLS] image of a brown polar bear standing on top of a large green hill in norway. [SEP]
+iter 5, The 1-th image: 285,clip score 0.801: [CLS] image of a brown polar bear standing on top of a large green hill in norway. [SEP]
+Finished in 3.953s
+The 1-th image: 285
+final caption: image of a brown polar bear standing on top of a large green hill in norway.
+best caption: image of a large polar bear resting on top of a lush green hill in norway.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 3.448: [CLS] image of a bedroom with a bed and a top book library aund blue book. [SEP]
+iter 2, The 1-th image: 632,clip score 0.027: [CLS] image of a room with a bed adjoining a two shelf bookscase no titledable. [SEP]
+iter 3, The 1-th image: 632,clip score 2.951: [CLS] image of a bedroom packing single bed surrounds a four wall book shelves so read in. [SEP]
+iter 4, The 1-th image: 632,clip score 1.578: [CLS] image of a bedroom a double bed and a half dozen booklving treesd in. [SEP]
+iter 5, The 1-th image: 632,clip score 0.301: [CLS] image of a bedroom with a bed and a half dozen she reveled in. [SEP]
+Finished in 6.485s
+The 1-th image: 632
+final caption: image of a bedroom with a bed and a half dozen she reveled in.
+best caption: image of a bedroom with a bed and a top book library aund blue book.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 1.749: [CLS] image of a woman standing in a small room next to a large fireplace inside her home [SEP]
+iter 2, The 1-th image: 139,clip score 0.531: [CLS] image of a woman standing in a living room next to a large fireplace in her home [SEP]
+iter 3, The 1-th image: 139,clip score 0.783: [CLS] image of a woman standing in her living room next to the large fireplace in her home [SEP]
+iter 4, The 1-th image: 139,clip score 1.069: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+iter 5, The 1-th image: 139,clip score 1.069: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+Finished in 4.103s
+The 1-th image: 139
+final caption: image of this woman standing in her living room next to the large fireplace in her home
+best caption: image of a woman standing in a small room next to a large fireplace inside her home
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score -3.089: [CLS] image of a large brown bear standing on top of a lush green pasture land surface. [SEP]
+iter 2, The 1-th image: 285,clip score -3.215: [CLS] image of a large brown bear standing on top of a lush green pasture land area. [SEP]
+iter 3, The 1-th image: 285,clip score -4.405: [CLS] image of a large brown bear standing on top of a lush green grassy field behind it [SEP]
+iter 4, The 1-th image: 285,clip score -3.097: [CLS] image of a large brown bear standing on top of a lush green grassy field over there [SEP]
+iter 5, The 1-th image: 285,clip score -4.728: [CLS] image of a large brown bear standing on top of a lush green grass field of green [SEP]
+Finished in 4.932s
+The 1-th image: 285
+final caption: image of a large brown bear standing on top of a lush green grass field of green
+best caption: None
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.554: [CLS] image of a bedroom with a bed and a book space in an enchantment. [SEP]
+iter 2, The 1-th image: 632,clip score -0.498: [CLS] image of a room having a bed and a sleeping room becoming an enchantment. [SEP]
+iter 3, The 1-th image: 632,clip score 1.951: [CLS] image of a room has a bed across a whole wall form an enchantment. [SEP]
+iter 4, The 1-th image: 632,clip score 1.854: [CLS] image of a bedroom with the bed and the opposite wall form an enchantment. [SEP]
+iter 5, The 1-th image: 632,clip score 0.436: [CLS] image of a bedroom library a bed against the far wall representing an enchantment. [SEP]
+Finished in 4.852s
+The 1-th image: 632
+final caption: image of a bedroom library a bed against the far wall representing an enchantment.
+best caption: image of a room has a bed across a whole wall form an enchantment.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.026: [CLS] image of a woman standing in a small room next to a large fireplace inside her home [SEP]
+iter 2, The 1-th image: 139,clip score 0.008: [CLS] image of a woman standing in a living room next to a large fireplace in her home [SEP]
+iter 3, The 1-th image: 139,clip score 0.011: [CLS] image of a woman standing in her living room next to the large fireplace in her home [SEP]
+iter 4, The 1-th image: 139,clip score 0.016: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+iter 5, The 1-th image: 139,clip score 0.016: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+Finished in 4.123s
+The 1-th image: 139
+final caption: image of this woman standing in her living room next to the large fireplace in her home
+best caption: image of a woman standing in a small room next to a large fireplace inside her home
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score -0.045: [CLS] image of a large brown bear standing on top of a lush green pasture land surface. [SEP]
+iter 2, The 1-th image: 285,clip score -0.047: [CLS] image of a large brown bear standing on top of a lush green pasture land area. [SEP]
+iter 3, The 1-th image: 285,clip score -0.064: [CLS] image of a large brown bear standing on top of a lush green grassy field behind it [SEP]
+iter 4, The 1-th image: 285,clip score -0.045: [CLS] image of a large brown bear standing on top of a lush green grassy field over there [SEP]
+iter 5, The 1-th image: 285,clip score -0.069: [CLS] image of a large brown bear standing on top of a lush green grass field of green [SEP]
+Finished in 5.013s
+The 1-th image: 285
+final caption: image of a large brown bear standing on top of a lush green grass field of green
+best caption: None
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.008: [CLS] image of a bedroom with a bed and a book space in an enchantment. [SEP]
+iter 2, The 1-th image: 632,clip score -0.007: [CLS] image of a room having a bed and a sleeping room becoming an enchantment. [SEP]
+iter 3, The 1-th image: 632,clip score 0.028: [CLS] image of a room has a bed across a whole wall form an enchantment. [SEP]
+iter 4, The 1-th image: 632,clip score 0.027: [CLS] image of a bedroom with the bed and the opposite wall form an enchantment. [SEP]
+iter 5, The 1-th image: 632,clip score 0.006: [CLS] image of a bedroom library a bed against the far wall representing an enchantment. [SEP]
+Finished in 4.903s
+The 1-th image: 632
+final caption: image of a bedroom library a bed against the far wall representing an enchantment.
+best caption: image of a room has a bed across a whole wall form an enchantment.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score -0.016: [CLS] image of a woman standing in her living room next to a market candle washer. [SEP]
+iter 2, The 1-th image: 139,clip score 0.029: [CLS] image of the woman sitting in her living room next to the old car wash room. [SEP]
+iter 3, The 1-th image: 139,clip score 0.041: [CLS] image of old mom sitting in the living room next to an open air storage unit. [SEP]
+iter 4, The 1-th image: 139,clip score 0.085: [CLS] image of her standing alone in a large hall next to an open air storage building. [SEP]
+iter 5, The 1-th image: 139,clip score 0.064: [CLS] image of herself standing alone in a great hall next to an open air storage building room [SEP]
+Finished in 4.131s
+The 1-th image: 139
+final caption: image of herself standing alone in a great hall next to an open air storage building room
+best caption: image of her standing alone in a large hall next to an open air storage building.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.048: [CLS] image of a large polar bear resting on top of a lush green hill before sunset. [SEP]
+iter 2, The 1-th image: 285,clip score 0.016: [CLS] image of a black teddy bear standing on top of a lush green park at sunset. [SEP]
+iter 3, The 1-th image: 285,clip score -0.022: [CLS] image of a brown teddy bear standing on top of a large mountain green at sunset. [SEP]
+iter 4, The 1-th image: 285,clip score 0.013: [CLS] image of a blackizzly bear standing on top of a rocky hill painting the sunset. [SEP]
+iter 5, The 1-th image: 285,clip score -0.045: [CLS] image of a grizzly bear standing on top of a grassy hill watching the viewer. [SEP]
+Finished in 4.036s
+The 1-th image: 285
+final caption: image of a grizzly bear standing on top of a grassy hill watching the viewer.
+best caption: image of a large polar bear resting on top of a lush green hill before sunset.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.096: [CLS] image of a room with a bed featuring a book library edition library edition ar edition usa [SEP]
+iter 2, The 1-th image: 632,clip score 0.049: [CLS] image of a room with a fireplace featuring picture trees library edition 1st grade school locations georgia [SEP]
+iter 3, The 1-th image: 632,clip score 0.079: [CLS] image of a room with a view containing several branches of the above elementary school library. [SEP]
+iter 4, The 1-th image: 632,clip score 0.020: [CLS] image of a room with a roof forming the background of an american elementary school classroom. [SEP]
+iter 5, The 1-th image: 632,clip score 0.027: [CLS] image of a building with green roofs in the background frame typical american elementary school buildings. [SEP]
+Finished in 6.067s
+The 1-th image: 632
+final caption: image of a building with green roofs in the background frame typical american elementary school buildings.
+best caption: image of a room with a bed featuring a book library edition library edition ar edition usa
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.044: [CLS] image of the woman standing in the living room next to the first fire cracker. [SEP]
+iter 2, The 1-th image: 139,clip score 0.101: [CLS] image of a child standing in her living room next to the last easter stream post. [SEP]
+iter 3, The 1-th image: 139,clip score 0.037: [CLS] image of a boy standing in a living room next to the missing fireplace whippingtel. [SEP]
+iter 4, The 1-th image: 139,clip score 0.077: [CLS] image of young girl standing in her living room looking for the fallen book of enoch. [SEP]
+iter 5, The 1-th image: 139,clip score 0.090: [CLS] image of a child standing in her living room looking over the lost house of hers. [SEP]
+Finished in 4.456s
+The 1-th image: 139
+final caption: image of a child standing in her living room looking over the lost house of hers.
+best caption: image of a child standing in her living room next to the last easter stream post.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.045: [CLS] image of a shaggy brown sheep standing on top of a forest white lawn gulch. [SEP]
+iter 2, The 1-th image: 285,clip score 0.083: [CLS] image of a large white sheep perched on top of the overgrown rose lawn gulch. [SEP]
+iter 3, The 1-th image: 285,clip score 0.020: [CLS] image of a large white boulder resting on top of the deserts grassy gully. [SEP]
+iter 4, The 1-th image: 285,clip score 0.015: [CLS] image of the big brown head standing on top of the badger forested a gullet. [SEP]
+iter 5, The 1-th image: 285,clip score 0.037: [CLS] image of the little baby santa standing on top of a nest with a pebble. [SEP]
+Finished in 5.028s
+The 1-th image: 285
+final caption: image of the little baby santa standing on top of a nest with a pebble.
+best caption: image of a large white sheep perched on top of the overgrown rose lawn gulch.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.108: [CLS] image of a room with a chair climbing a book page books collection published in summer writing [SEP]
+iter 2, The 1-th image: 632,clip score 0.100: [CLS] image of a chair where a chair is a blue rider story fragment recounted in anonymous. [SEP]
+iter 3, The 1-th image: 632,clip score 0.101: [CLS] image of a chair inside a book collection book reviews long story dreams compiled by editors around [SEP]
+iter 4, The 1-th image: 632,clip score 0.067: [CLS] image of a book is a chinese language periodical displaying short story anthologies created by authors. [SEP]
+iter 5, The 1-th image: 632,clip score 0.069: [CLS] image of a woman was a portuguese language magazine featuring short story anthologies written female readers. [SEP]
+Finished in 6.188s
+The 1-th image: 632
+final caption: image of a woman was a portuguese language magazine featuring short story anthologies written female readers.
+best caption: image of a room with a chair climbing a book page books collection published in summer writing
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.076: [CLS] image of the woman standing in the dining room next to the tea book ash kept. [SEP]
+iter 2, The 1-th image: 139,clip score 0.046: [CLS] image of the woman standing in the dining room next to the heavy book she carries. [SEP]
+iter 3, The 1-th image: 139,clip score 0.085: [CLS] image of the woman standing in the sitting room next to the ancient books she carried. [SEP]
+iter 4, The 1-th image: 139,clip score 0.074: [CLS] image of the woman standing in her living room reading through the comic books he found. [SEP]
+iter 5, The 1-th image: 139,clip score 0.091: [CLS] image of a man standing in his living room going through some comic books he found. [SEP]
+Finished in 4.346s
+The 1-th image: 139
+final caption: image of a man standing in his living room going through some comic books he found.
+best caption: image of a man standing in his living room going through some comic books he found.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.092: [CLS] image of a shaggy brown sheep sitting on top of a small wheat round table no longer [SEP]
+iter 2, The 1-th image: 285,clip score 0.081: [CLS] image of a lone mountain sheep sitting on top of a small oak dining round night. [SEP]
+iter 3, The 1-th image: 285,clip score 0.044: [CLS] image of a lonely mountain sheep sitting on top of a great mountain dog at night. [SEP]
+iter 4, The 1-th image: 285,clip score 0.057: [CLS] image of a great mountain cat sleeping on top of a giant white mountain at sunset. [SEP]
+iter 5, The 1-th image: 285,clip score 0.082: [CLS] image of the white mountain fox asleep on top of a bare white mountain at sunset. [SEP]
+Finished in 4.801s
+The 1-th image: 285
+final caption: image of the white mountain fox asleep on top of a bare white mountain at sunset.
+best caption: image of a shaggy brown sheep sitting on top of a small wheat round table no longer
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.051: [CLS] image of a room with a chair climbing a book page from the da vinci code. [SEP]
+iter 2, The 1-th image: 632,clip score 0.016: [CLS] image of a man in a wheelchair is a comic strip from the da vinci code. [SEP]
+iter 3, The 1-th image: 632,clip score 0.049: [CLS] image of a boy in a classroom is a comic strip from the da vinci code. [SEP]
+iter 4, The 1-th image: 632,clip score 0.036: [CLS] image of a boy in the street is a comic strip from the da vinci code. [SEP]
+iter 5, The 1-th image: 632,clip score 0.036: [CLS] image of a boy in the street is a comic strip from the da vinci code. [SEP]
+Finished in 3.799s
+The 1-th image: 632
+final caption: image of a boy in the street is a comic strip from the da vinci code.
+best caption: image of a room with a chair climbing a book page from the da vinci code.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.076: [CLS] image of the woman standing in the dining room next to the tea book ash kept. [SEP]
+iter 2, The 1-th image: 139,clip score 0.046: [CLS] image of the woman standing in the dining room next to the heavy book she carries. [SEP]
+iter 3, The 1-th image: 139,clip score 0.085: [CLS] image of the woman standing in the sitting room next to the ancient books she carried. [SEP]
+iter 4, The 1-th image: 139,clip score 0.074: [CLS] image of the woman standing in her living room reading through the comic books he found. [SEP]
+iter 5, The 1-th image: 139,clip score 0.091: [CLS] image of a man standing in his living room going through some comic books he found. [SEP]
+Finished in 3.758s
+The 1-th image: 139
+final caption: image of a man standing in his living room going through some comic books he found.
+best caption: image of a man standing in his living room going through some comic books he found.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.092: [CLS] image of a shaggy brown sheep sitting on top of a small wheat round table no longer [SEP]
+iter 2, The 1-th image: 285,clip score 0.081: [CLS] image of a lone mountain sheep sitting on top of a small oak dining round night. [SEP]
+iter 3, The 1-th image: 285,clip score 0.044: [CLS] image of a lonely mountain sheep sitting on top of a great mountain dog at night. [SEP]
+iter 4, The 1-th image: 285,clip score 0.057: [CLS] image of a great mountain cat sleeping on top of a giant white mountain at sunset. [SEP]
+iter 5, The 1-th image: 285,clip score 0.082: [CLS] image of the white mountain fox asleep on top of a bare white mountain at sunset. [SEP]
+Finished in 4.867s
+The 1-th image: 285
+final caption: image of the white mountain fox asleep on top of a bare white mountain at sunset.
+best caption: image of a shaggy brown sheep sitting on top of a small wheat round table no longer
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.051: [CLS] image of a room with a chair climbing a book page from the da vinci code. [SEP]
+iter 2, The 1-th image: 632,clip score 0.016: [CLS] image of a man in a wheelchair is a comic strip from the da vinci code. [SEP]
+iter 3, The 1-th image: 632,clip score 0.049: [CLS] image of a boy in a classroom is a comic strip from the da vinci code. [SEP]
+iter 4, The 1-th image: 632,clip score 0.036: [CLS] image of a boy in the street is a comic strip from the da vinci code. [SEP]
+iter 5, The 1-th image: 632,clip score 0.036: [CLS] image of a boy in the street is a comic strip from the da vinci code. [SEP]
+Finished in 3.818s
+The 1-th image: 632
+final caption: image of a boy in the street is a comic strip from the da vinci code.
+best caption: image of a room with a chair climbing a book page from the da vinci code.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.044: [CLS] image of the woman standing in the living room next to the first fire cracker. [SEP]
+iter 2, The 1-th image: 139,clip score 0.101: [CLS] image of a child standing in her living room next to the last easter stream post. [SEP]
+iter 3, The 1-th image: 139,clip score 0.037: [CLS] image of a boy standing in a living room next to the missing fireplace whippingtel. [SEP]
+iter 4, The 1-th image: 139,clip score 0.077: [CLS] image of young girl standing in her living room looking for the fallen book of enoch. [SEP]
+iter 5, The 1-th image: 139,clip score 0.090: [CLS] image of a child standing in her living room looking over the lost house of hers. [SEP]
+Finished in 4.019s
+The 1-th image: 139
+final caption: image of a child standing in her living room looking over the lost house of hers.
+best caption: image of a child standing in her living room next to the last easter stream post.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.045: [CLS] image of a shaggy brown sheep standing on top of a forest white lawn gulch. [SEP]
+iter 2, The 1-th image: 285,clip score 0.083: [CLS] image of a large white sheep perched on top of the overgrown rose lawn gulch. [SEP]
+iter 3, The 1-th image: 285,clip score 0.020: [CLS] image of a large white boulder resting on top of the deserts grassy gully. [SEP]
+iter 4, The 1-th image: 285,clip score 0.015: [CLS] image of the big brown head standing on top of the badger forested a gullet. [SEP]
+iter 5, The 1-th image: 285,clip score 0.037: [CLS] image of the little baby santa standing on top of a nest with a pebble. [SEP]
+Finished in 4.937s
+The 1-th image: 285
+final caption: image of the little baby santa standing on top of a nest with a pebble.
+best caption: image of a large white sheep perched on top of the overgrown rose lawn gulch.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.108: [CLS] image of a room with a chair climbing a book page books collection published in summer writing [SEP]
+iter 2, The 1-th image: 632,clip score 0.100: [CLS] image of a chair where a chair is a blue rider story fragment recounted in anonymous. [SEP]
+iter 3, The 1-th image: 632,clip score 0.101: [CLS] image of a chair inside a book collection book reviews long story dreams compiled by editors around [SEP]
+iter 4, The 1-th image: 632,clip score 0.067: [CLS] image of a book is a chinese language periodical displaying short story anthologies created by authors. [SEP]
+iter 5, The 1-th image: 632,clip score 0.069: [CLS] image of a woman was a portuguese language magazine featuring short story anthologies written female readers. [SEP]
+Finished in 6.532s
+The 1-th image: 632
+final caption: image of a woman was a portuguese language magazine featuring short story anthologies written female readers.
+best caption: image of a room with a chair climbing a book page books collection published in summer writing
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.027: [CLS] image of a woman standing in a small room next to a large fireplace overlooking her home [SEP]
+iter 2, The 1-th image: 139,clip score 0.031: [CLS] image of the woman standing in a living room adjacent to a large window flanking her. [SEP]
+iter 3, The 1-th image: 139,clip score 0.041: [CLS] image of a woman standing in a living room next to the tall men above her. [SEP]
+iter 4, The 1-th image: 139,clip score 0.044: [CLS] image of a woman standing in her living room talking to three strange men before me. [SEP]
+iter 5, The 1-th image: 139,clip score 0.065: [CLS] image of a woman sitting in a hotel room talking with three strange men hit me. [SEP]
+Finished in 3.999s
+The 1-th image: 139
+final caption: image of a woman sitting in a hotel room talking with three strange men hit me.
+best caption: image of a woman sitting in a hotel room talking with three strange men hit me.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.048: [CLS] image of a large polar bear resting on top of a lush green hill before sunset. [SEP]
+iter 2, The 1-th image: 285,clip score 0.016: [CLS] image of a black teddy bear standing on top of a lush green park at sunset. [SEP]
+iter 3, The 1-th image: 285,clip score 0.002: [CLS] image of a brown teddy bear standing on top of a lush grassy hillside at sunset. [SEP]
+iter 4, The 1-th image: 285,clip score 0.075: [CLS] image of the old teddy bear sitting on top of the tall green grass after sunset. [SEP]
+iter 5, The 1-th image: 285,clip score 0.028: [CLS] image of the old teddy rex perched on top of the lush green grass at sunset. [SEP]
+Finished in 4.089s
+The 1-th image: 285
+final caption: image of the old teddy rex perched on top of the lush green grass at sunset.
+best caption: image of the old teddy bear sitting on top of the tall green grass after sunset.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.050: [CLS] image of a bedroom with a bed and a top book library aund blue book. [SEP]
+iter 2, The 1-th image: 632,clip score 0.006: [CLS] image of a room combining a bed minus a picture bookshelk and a nightstand. [SEP]
+iter 3, The 1-th image: 632,clip score 0.018: [CLS] image of a bedroom packing a bed supported a large bookshelf accompanied a book. [SEP]
+iter 4, The 1-th image: 632,clip score 0.012: [CLS] image of a bedroom after a bath of water a bookshelf with a window view [SEP]
+iter 5, The 1-th image: 632,clip score 0.034: [CLS] image of a woman in a pool of light bedroom bookshelves flank a bedroom window [SEP]
+Finished in 5.623s
+The 1-th image: 632
+final caption: image of a woman in a pool of light bedroom bookshelves flank a bedroom window
+best caption: image of a bedroom with a bed and a top book library aund blue book.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.026: [CLS] image of a woman standing in a small room next to a large fireplace inside her home [SEP]
+iter 2, The 1-th image: 139,clip score 0.008: [CLS] image of a woman standing in a living room next to a large fireplace in her home [SEP]
+iter 3, The 1-th image: 139,clip score 0.014: [CLS] image of a woman standing in her living room next to a large fireplace in her home [SEP]
+iter 4, The 1-th image: 139,clip score 0.016: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+iter 5, The 1-th image: 139,clip score 0.016: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+Finished in 4.697s
+The 1-th image: 139
+final caption: image of this woman standing in her living room next to the large fireplace in her home
+best caption: image of a woman standing in a small room next to a large fireplace inside her home
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.009: [CLS] image of a large brown bear standing on top of a lush green pasture land blanket. [SEP]
+iter 2, The 1-th image: 285,clip score -0.057: [CLS] image of a massive brown bear standing on top of a lush sprawling green nature reserve. [SEP]
+iter 3, The 1-th image: 285,clip score -0.028: [CLS] image of a gigantic brown bear standing on top of a large grass covered nature reserve. [SEP]
+iter 4, The 1-th image: 285,clip score -0.036: [CLS] image of a big brown bear standing on top of a large grass covered nature reserve. [SEP]
+iter 5, The 1-th image: 285,clip score -0.036: [CLS] image of a big brown bear standing on top of a large grass covered nature reserve. [SEP]
+Finished in 4.174s
+The 1-th image: 285
+final caption: image of a big brown bear standing on top of a large grass covered nature reserve.
+best caption: image of a large brown bear standing on top of a lush green pasture land blanket.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.006: [CLS] image of a bedroom with a bed and a book space in an anachron. [SEP]
+iter 2, The 1-th image: 632,clip score -0.013: [CLS] image of a bedroom with a bed and a work table looking very anachromatic. [SEP]
+iter 3, The 1-th image: 632,clip score 0.008: [CLS] image of a room with a bed and a bedside table seem almost monochromatic. [SEP]
+iter 4, The 1-th image: 632,clip score 0.024: [CLS] image of the room revealing a bed and a bedside table for something nonchromatic. [SEP]
+iter 5, The 1-th image: 632,clip score 0.035: [CLS] image of the room with a bed and a side table usually is monochromatic. [SEP]
+Finished in 5.210s
+The 1-th image: 632
+final caption: image of the room with a bed and a side table usually is monochromatic.
+best caption: image of the room with a bed and a side table usually is monochromatic.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.026: [CLS] image of a woman standing in a small room next to a large fireplace inside her home [SEP]
+iter 2, The 1-th image: 139,clip score 0.008: [CLS] image of a woman standing in a living room next to a large fireplace in her home [SEP]
+iter 3, The 1-th image: 139,clip score 0.014: [CLS] image of a woman standing in her living room next to a large fireplace in her home [SEP]
+iter 4, The 1-th image: 139,clip score 0.016: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+iter 5, The 1-th image: 139,clip score 0.016: [CLS] image of this woman standing in her living room next to the large fireplace in her home [SEP]
+Finished in 4.203s
+The 1-th image: 139
+final caption: image of this woman standing in her living room next to the large fireplace in her home
+best caption: image of a woman standing in a small room next to a large fireplace inside her home
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.009: [CLS] image of a large brown bear standing on top of a lush green pasture land blanket. [SEP]
+iter 2, The 1-th image: 285,clip score -0.057: [CLS] image of a massive brown bear standing on top of a lush sprawling green nature reserve. [SEP]
+iter 3, The 1-th image: 285,clip score -0.028: [CLS] image of a gigantic brown bear standing on top of a large grass covered nature reserve. [SEP]
+iter 4, The 1-th image: 285,clip score -0.036: [CLS] image of a big brown bear standing on top of a large grass covered nature reserve. [SEP]
+iter 5, The 1-th image: 285,clip score -0.036: [CLS] image of a big brown bear standing on top of a large grass covered nature reserve. [SEP]
+Finished in 4.117s
+The 1-th image: 285
+final caption: image of a big brown bear standing on top of a large grass covered nature reserve.
+best caption: image of a large brown bear standing on top of a lush green pasture land blanket.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.006: [CLS] image of a bedroom with a bed and a book space in an anachron. [SEP]
+iter 2, The 1-th image: 632,clip score -0.013: [CLS] image of a bedroom with a bed and a work table looking very anachromatic. [SEP]
+iter 3, The 1-th image: 632,clip score 0.008: [CLS] image of a room with a bed and a bedside table seem almost monochromatic. [SEP]
+iter 4, The 1-th image: 632,clip score 0.024: [CLS] image of the room revealing a bed and a bedside table for something nonchromatic. [SEP]
+iter 5, The 1-th image: 632,clip score 0.035: [CLS] image of the room with a bed and a side table usually is monochromatic. [SEP]
+Finished in 5.494s
+The 1-th image: 632
+final caption: image of the room with a bed and a side table usually is monochromatic.
+best caption: image of the room with a bed and a side table usually is monochromatic.

@@ -1,0 +1,158 @@
+Generating order:precise
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='precise', control_type='precise', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=1, sentence_len=12, candidate_k=200, alpha=0.01, beta=2.5, gamma=6, lm_temperature=0.1, num_iterations=5, lm_model='bert-large-uncased-whole-word-masking', match_model='openai/clip-vit-base-patch32', caption_img_path='/content/drive/MyDrive/im2txt/nlp_proj/text_control/gibbs_polish/flick8k_sample/img1.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], theta=3)
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.284: [CLS] image of a living room with a fireplace camera television irlit irlit [SEP]
+iter 2, The 1-th image: 139,clip score 0.251: [CLS] image of a living room with a single screen fireplace irlit irlit [SEP]
+iter 3, The 1-th image: 139,clip score 0.261: [CLS] image of the living room with a flat screen fireplace irlit irlit [SEP]
+iter 4, The 1-th image: 139,clip score 0.254: [CLS] image of a living room with a flat screen fireplace irlit irlit [SEP]
+iter 5, The 1-th image: 139,clip score 0.254: [CLS] image of a living room with a flat screen fireplace irlit irlit [SEP]
+Finished in 4.476s
+The 1-th image: 139
+final caption: image of a living room with a flat screen fireplace irlit irlit
+best caption: image of a living room with a fireplace camera television irlit irlit
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.234: [CLS] image of a brown dog sitting in the grass when it is resting. [SEP]
+iter 2, The 1-th image: 285,clip score 0.266: [CLS] image of big brown bear sitting in the grass while he is chewing. [SEP]
+iter 3, The 1-th image: 285,clip score 0.297: [CLS] image of the brown bear sitting in the grass dream he was awake. [SEP]
+iter 4, The 1-th image: 285,clip score 0.269: [CLS] image of a brown dog sitting in the grass waiting he was awakened. [SEP]
+iter 5, The 1-th image: 285,clip score 0.266: [CLS] image of a large dog sitting in the grass waiting before being shot. [SEP]
+Finished in 3.940s
+The 1-th image: 285
+final caption: image of a large dog sitting in the grass waiting before being shot.
+best caption: image of the brown bear sitting in the grass dream he was awake.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.306: [CLS] image of a room with a bed and a window in a dream. [SEP]
+iter 2, The 1-th image: 632,clip score 0.272: [CLS] image of a room featuring a bed and a window in a bedroom. [SEP]
+iter 3, The 1-th image: 632,clip score 0.305: [CLS] image of a room with a bed and a window entered the head. [SEP]
+iter 4, The 1-th image: 632,clip score 0.287: [CLS] image of a room with a bed and a window at the end. [SEP]
+iter 5, The 1-th image: 632,clip score 0.285: [CLS] image of a room with a bed and a window at one end. [SEP]
+Finished in 6.346s
+The 1-th image: 632
+final caption: image of a room with a bed and a window at one end.
+best caption: image of a room with a bed and a window in a dream.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.309: [CLS] image of a living room with a fireplace camera television ir television system system infrared tv system [SEP]
+iter 2, The 1-th image: 139,clip score 0.357: [CLS] image of a living room with the lcd television scanner composite tv with an infrared imaging system [SEP]
+iter 3, The 1-th image: 139,clip score 0.328: [CLS] image of the living room with an integrated thermal oven simulated indoors with an infrared heating system [SEP]
+iter 4, The 1-th image: 139,clip score 0.291: [CLS] image of a living room with an external microwave oven fireplace painting of the internal heating system [SEP]
+iter 5, The 1-th image: 139,clip score 0.331: [CLS] image of a living room with an automated microwave oven infrared view of the home theater fireplace [SEP]
+Finished in 6.268s
+The 1-th image: 139
+final caption: image of a living room with an automated microwave oven infrared view of the home theater fireplace
+best caption: image of a living room with the lcd television scanner composite tv with an infrared imaging system
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.312: [CLS] image of a brown woman sitting in the grass face she purpes colors fuzzy. [SEP]
+iter 2, The 1-th image: 285,clip score 0.286: [CLS] image of the old woman sitting in the grass before her purti brown and purple. [SEP]
+iter 3, The 1-th image: 285,clip score 0.248: [CLS] image of an old man sitting in the grass before him circled with gold and silver. [SEP]
+iter 4, The 1-th image: 285,clip score 0.249: [CLS] image of the old man sitting in the chair before him laden with gold and jewels dreaming [SEP]
+iter 5, The 1-th image: 285,clip score 0.219: [CLS] image of an old man sitting without the table before him laden with gold and jewels. [SEP]
+Finished in 8.614s
+The 1-th image: 285
+final caption: image of an old man sitting without the table before him laden with gold and jewels.
+best caption: image of a brown woman sitting in the grass face she purpes colors fuzzy.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.341: [CLS] image of a bedroom with a bed and a window art copy digital rest reconstruction. [SEP]
+iter 2, The 1-th image: 632,clip score 0.315: [CLS] image of a bedroom depicts a bed and a small window negative google urt type window [SEP]
+iter 3, The 1-th image: 632,clip score 0.280: [CLS] image of the bedroom with a bed and a single window or a paned picture. [SEP]
+iter 4, The 1-th image: 632,clip score 0.309: [CLS] image of a bedroom with a bed watching a picture window became single panned window. [SEP]
+iter 5, The 1-th image: 632,clip score 0.347: [CLS] image of a room featuring a window since 1990s camera image color has scand slightly electronically [SEP]
+Finished in 11.407s
+The 1-th image: 632
+final caption: image of a room featuring a window since 1990s camera image color has scand slightly electronically
+best caption: image of a room featuring a window since 1990s camera image color has scand slightly electronically
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.233: [CLS] image of a living room with a fireplace with a fireplace in front of a television. [SEP]
+iter 2, The 1-th image: 139,clip score 0.270: [CLS] image of a living room with a fireplace 3d a couch in front of a television. [SEP]
+iter 3, The 1-th image: 139,clip score 0.238: [CLS] image of a living room including a fireplace and a sofa in front of a fireplace. [SEP]
+iter 4, The 1-th image: 139,clip score 0.249: [CLS] image of a living room with a tv and a chair in front of the fireplace. [SEP]
+iter 5, The 1-th image: 139,clip score 0.257: [CLS] image of a small room with a couch and a chair in front of the fireplace. [SEP]
+Finished in 6.245s
+The 1-th image: 139
+final caption: image of a small room with a couch and a chair in front of the fireplace.
+best caption: image of a living room with a fireplace 3d a couch in front of a television.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.263: [CLS] image of a brown woman sitting in the grass face she purpes on her side [SEP]
+iter 2, The 1-th image: 285,clip score 0.257: [CLS] image of a naked girl lying in the grass waiting for the caress moon on her face [SEP]
+iter 3, The 1-th image: 285,clip score 0.212: [CLS] image of a young girl sitting in the grass waiting with a half smile on her face [SEP]
+iter 4, The 1-th image: 285,clip score 0.217: [CLS] image of a small girl sitting in the grass grass with a sad smile on her face [SEP]
+iter 5, The 1-th image: 285,clip score 0.211: [CLS] image of a young girl sitting in the long grass with a sad smile on her face [SEP]
+Finished in 5.037s
+The 1-th image: 285
+final caption: image of a young girl sitting in the long grass with a sad smile on her face
+best caption: image of a brown woman sitting in the grass face she purpes on her side
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.272: [CLS] image of a bedroom with a bed and a window art copy original type of window. [SEP]
+iter 2, The 1-th image: 632,clip score 0.323: [CLS] image of a bedroom without a bed and a small distorted cartoonlike type of window. [SEP]
+iter 3, The 1-th image: 632,clip score 0.350: [CLS] image of a bedroom with a bed and a somewhat distorted picture machine type of window. [SEP]
+iter 4, The 1-th image: 632,clip score 0.346: [CLS] image of a bedroom with a bed and a slightly distorted picture machine type of window. [SEP]
+iter 5, The 1-th image: 632,clip score 0.346: [CLS] image of a bedroom with a bed and a slightly distorted picture machine type of window. [SEP]
+Finished in 7.160s
+The 1-th image: 632
+final caption: image of a bedroom with a bed and a slightly distorted picture machine type of window.
+best caption: image of a bedroom with a bed and a somewhat distorted picture machine type of window.
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.348: [CLS] image of a small room with a sofa painting digital image of the ar at the moment [SEP]
+iter 2, The 1-th image: 139,clip score 0.336: [CLS] image of a small apartment with a modern kitchen microwave image of her apartment at the moment [SEP]
+iter 3, The 1-th image: 139,clip score 0.338: [CLS] image of a large room with a small refrigerator combined image of his surroundings at the moment [SEP]
+iter 4, The 1-th image: 139,clip score 0.364: [CLS] image of a small room using a small device infrared spectrum of the room at any moment [SEP]
+iter 5, The 1-th image: 139,clip score 0.354: [CLS] image of a small room by a digital camera 3d view of a room at the moment [SEP]
+Finished in 5.992s
+The 1-th image: 139
+final caption: image of a small room by a digital camera 3d view of a room at the moment
+best caption: image of a small room using a small device infrared spectrum of the room at any moment
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.348: [CLS] image of the russian man sitting in the center of the multi color trip computer system. [SEP]
+iter 2, The 1-th image: 285,clip score 0.365: [CLS] image of the bearded man blinking in the eye of a colorful fuzzy 3d image field. [SEP]
+iter 3, The 1-th image: 285,clip score 0.359: [CLS] image of a naked eye fill in the background face a large fuzzy psychedelic color strip. [SEP]
+iter 4, The 1-th image: 285,clip score 0.328: [CLS] image of a fish eye dog block above his head smiling in a full moon glow. [SEP]
+iter 5, The 1-th image: 285,clip score 0.343: [CLS] image of the eagle colored wood stretched over his face bathed in a half infrared spectrum. [SEP]
+Finished in 6.722s
+The 1-th image: 285
+final caption: image of the eagle colored wood stretched over his face bathed in a half infrared spectrum.
+best caption: image of the bearded man blinking in the eye of a colorful fuzzy 3d image field.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.388: [CLS] image of a room except a bed and no interruption color ir multi array multisca color [SEP]
+iter 2, The 1-th image: 632,clip score 0.408: [CLS] image of a room with a bed leaving a mirror picture 3d time series hdsca color [SEP]
+iter 3, The 1-th image: 632,clip score 0.372: [CLS] image of a bedroom after a shower of water motion pictures 3d signal in clearscale [SEP]
+iter 4, The 1-th image: 632,clip score 0.371: [CLS] image of a room with a bath of water camera color video signal in panoc format [SEP]
+iter 5, The 1-th image: 632,clip score 0.367: [CLS] image of a room with a bath of water infrared color video image in jpeg format [SEP]
+Finished in 12.400s
+The 1-th image: 632
+final caption: image of a room with a bath of water infrared color video image in jpeg format
+best caption: image of a room with a bed leaving a mirror picture 3d time series hdsca color
+Sample 1: 
+The 1-th batch:
+iter 1, The 1-th image: 139,clip score 0.353: [CLS] image of a small room with a bed painting digital image of the arg ar. [SEP]
+iter 2, The 1-th image: 139,clip score 0.339: [CLS] image of a single room with one oil painting per side of an arg frame. [SEP]
+iter 3, The 1-th image: 139,clip score 0.346: [CLS] image of a single room with one abstract painting each side of an ar picture screen. [SEP]
+iter 4, The 1-th image: 139,clip score 0.298: [CLS] image of a small room with an individual at the bottom of an old computer monitor. [SEP]
+iter 5, The 1-th image: 139,clip score 0.341: [CLS] image of a living room of an apartment from the top of an antique computer monitor. [SEP]
+Finished in 7.595s
+The 1-th image: 139
+final caption: image of a living room of an apartment from the top of an antique computer monitor.
+best caption: image of a small room with a bed painting digital image of the arg ar.
+The 2-th batch:
+iter 1, The 1-th image: 285,clip score 0.348: [CLS] image of the russian man sitting in the center of the multi color trip computer system. [SEP]
+iter 2, The 1-th image: 285,clip score 0.220: [CLS] image of the bearded man standing in the center of a new york city subway tunnel. [SEP]
+iter 3, The 1-th image: 285,clip score 0.199: [CLS] image of a naked man sitting in the lobby of the new york city subway building. [SEP]
+iter 4, The 1-th image: 285,clip score 0.194: [CLS] image of a young man sitting in the elevator of a new york city office building. [SEP]
+iter 5, The 1-th image: 285,clip score 0.210: [CLS] image of a naked man sitting in the lobby of a new york city office building. [SEP]
+Finished in 4.745s
+The 1-th image: 285
+final caption: image of a naked man sitting in the lobby of a new york city office building.
+best caption: image of the russian man sitting in the center of the multi color trip computer system.
+The 3-th batch:
+iter 1, The 1-th image: 632,clip score 0.357: [CLS] image of a room with a bed and a television color scan of the night before. [SEP]
+iter 2, The 1-th image: 632,clip score 0.376: [CLS] image of a room after a night by a digital image taken of the night before. [SEP]
+iter 3, The 1-th image: 632,clip score 0.302: [CLS] image of a house during the night is a moving image reconstruction from the night before. [SEP]
+iter 4, The 1-th image: 632,clip score 0.348: [CLS] image of a room during the day is a computer generated image from the day before. [SEP]
+iter 5, The 1-th image: 632,clip score 0.276: [CLS] image of a person during the day is a computer generated image of the day spent. [SEP]
+Finished in 5.915s
+The 1-th image: 632
+final caption: image of a person during the day is a computer generated image of the day spent.
+best caption: image of a room after a night by a digital image taken of the night before.
