@@ -123,8 +123,8 @@ def sequential_generation(img_name, model, clip, tokenizer, image_instance,token
     """ Generate one word at a time, in L->R order """
 
     seed_len = len(prompt.split())+1
-        
     batch = get_init_text(tokenizer, prompt, max_len, batch_size)
+
     image_embeds = clip.compute_image_representation_from_image_instance(image_instance)
     clip_score_sequence = []
     best_clip_score_list = [0] * batch_size
@@ -368,7 +368,7 @@ def generate_caption(img_name,
                     generate_order="sequential"):
     # main generation functions to call
     start_time = time.time()
-
+    print(prompt.split())
 
     if generate_order == "precise":
         generate_texts, clip_scores = precise_generation(
@@ -383,7 +383,7 @@ def generate_caption(img_name,
             max_iters=max_iter)
     
     elif generate_order=="sequential":
-        max_len = max_len - (len(prompt.split()) - 2)
+        max_len = max_len - (len(prompt.split()) - 3)
         generate_texts, clip_scores = sequential_generation(img_name, model, clip, tokenizer, image_instance, token_mask, prompt, logger,
                                  batch_size=batch_size, max_len=max_len, top_k=top_k, 
                                  
@@ -391,13 +391,13 @@ def generate_caption(img_name,
                                  max_iters=max_iter)
 
     elif generate_order=="shuffle":
-        max_len = max_len - (len(prompt.split()) - 2)
+        max_len = max_len - (len(prompt.split()) - 3)
         generate_texts, clip_scores = shuffle_generation(img_name, model, clip, tokenizer,image_instance,token_mask,prompt, logger,
                                  batch_size=batch_size, max_len=max_len, top_k=top_k,
                                  alpha=alpha,beta=beta,temperature=temperature,max_iters=max_iter)
 
     elif generate_order=="random":
-        max_len = max_len - (len(prompt.split()) - 2)
+        max_len = max_len - (len(prompt.split()) - 3)
         max_iter *= max_len
         print_every = max_len
         generate_texts, clip_scores = random_generation(img_name, model, clip, tokenizer,image_instance,token_mask,prompt,logger,
@@ -405,14 +405,14 @@ def generate_caption(img_name,
                                temperature=temperature, batch_size=batch_size, max_iters=max_iter,verbose=True)
 
     elif generate_order=="span":
-        max_len = max_len - (len(prompt.split()) - 2)
+        max_len = max_len - (len(prompt.split()) - 3)
         max_iter = max_iter
         generate_texts, clip_scores = span_generation(img_name, model, clip, tokenizer, image_instance, token_mask, prompt, logger,
                                  batch_size=batch_size, max_len=max_len, top_k=top_k,
                                  alpha=alpha,beta=beta,temperature=temperature, max_iters=max_iter)
 
     elif generate_order=="parallel":
-        max_len = max_len - (len(prompt.split()) - 2)
+        max_len = max_len - (len(prompt.split()) - 3)
         generate_texts, clip_scores = parallel_generation(img_name, model, clip, tokenizer,image_instance,token_mask,prompt,  logger,
                                max_len=max_len, temperature=temperature, top_k=top_k, alpha=alpha,beta=beta,
                                 max_iters=max_iter, batch_size=batch_size, verbose=True)
