@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <script src="{{ url_for('static', filename='home.js') }}"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computer Vision Project Home</title>
+</head>
+<body>
+<h2>Computer Vision - Image Captioning</h2>
+<p class="lead">Ming Xin Bui and co.</p>
+<form id="file-upload-form" action = "/uploader" method = "POST" enctype = "multipart/form-data" class="uploader">
+    <input id="file-upload" type = "file" name = "fileBtn"/>
+
+    <label for="file-upload" id="file-drag">
+        <img id="file-image" src="#" alt="Preview" class="hidden">
+        <div id="start">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <div style="font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; ">Please select a file</div>
+            <div id="notimage" class="hidden">Please select an image</div>
+            <span id="file-upload-btn" class="btn btn-primary" style="font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; ">Select a file</span>
+        </div>
+        <div id="response" class="hidden">
+            <div id="messages"></div>
+            <progress class="progress" id="file-progress" value="0">
+                <span>0</span>%
+            </progress>
+        </div>
+    </label>
+
+    <style>
+        .submitButton {
+            margin: 8px;
+        }
+    </style>
+
+    <input type = "submit" value="Submit" class="submitButton"/>
+    <p>{{ message }}</p>
+</form>
+
+<div id='info_section'>
+</div>
+</body>
+</html>
