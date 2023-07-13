@@ -1,0 +1,17 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], seed_len=3)
+iter 1, The 1-th image: G,clip score 0.321: [CLS] a photo of the cloud team running down to the bases and the two horses running. [SEP]
+iter 2, The 1-th image: G,clip score 0.295: [CLS] a photo of the cloud team running up to the dais and the two cowboys kissing. [SEP]
+iter 3, The 1-th image: G,clip score 0.292: [CLS] a photo of the cloud drivers walking up to the pickup truck advertising the two cowboys appeared. [SEP]
+iter 4, The 1-th image: G,clip score 0.299: [CLS] a photo of the cloud man walking up to a pickup truck with twenty other horses appeared. [SEP]
+iter 5, The 1-th image: G,clip score 0.306: [CLS] a photo of the cloud chief pulling up in a pickup truck with two wild horses inside. [SEP]
+iter 6, The 1-th image: G,clip score 0.247: [CLS] a photo of the cloud chief pulled up beside a pickup truck with two black horses inside. [SEP]
+iter 7, The 1-th image: G,clip score 0.268: [CLS] a photo of the cloud had popped up of a black stagecoach with two black riders inside. [SEP]
+iter 8, The 1-th image: G,clip score 0.249: [CLS] a photo of the cloud cover made up of a black saddle with two black horses inside. [SEP]
+iter 9, The 1-th image: G,clip score 0.239: [CLS] a photo of the cloud was made up of a white cloud with two white horses riding. [SEP]
+iter 10, The 1-th image: G,clip score 0.242: [CLS] a photo of the cloud is made up of a white cloud with two white cowboys standing. [SEP]
+Finished in 26.914s
+The 1-th image: G
+final caption: a photo of the cloud is made up of a white cloud with two white cowboys standing.
+best caption: a photo of the cloud team running down to the bases and the two horses running.

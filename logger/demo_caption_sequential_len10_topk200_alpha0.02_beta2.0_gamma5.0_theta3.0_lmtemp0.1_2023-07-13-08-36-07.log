@@ -1,0 +1,62 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], seed_len=3)
+iter 1, The 1-th image: G,clip score 0.339: [CLS] a photo of the horse running while the model was animated surfaced. [SEP]
+iter 2, The 1-th image: G,clip score 0.351: [CLS] a photo of the horse running while the album was animated appeared. [SEP]
+iter 3, The 1-th image: G,clip score 0.326: [CLS] a photo of the horse moving as the album was released later. [SEP]
+Finished in 4.286s
+The 1-th image: G
+final caption: a photo of the horse moving as the album was released later.
+best caption: a photo of the horse running while the album was animated appeared.
+iter 1, The 1-th image: G,clip score 0.348: [CLS] a photo of the horse surrounded by animated by the models website. [SEP]
+iter 2, The 1-th image: G,clip score 0.350: [CLS] a photo of the horse surrounded is depicted on the cowboy website. [SEP]
+iter 3, The 1-th image: G,clip score 0.357: [CLS] a photo of the horse herd is depicted on the lds website. [SEP]
+Finished in 4.674s
+The 1-th image: G
+final caption: a photo of the horse herd is depicted on the lds website.
+best caption: a photo of the horse herd is depicted on the lds website.
+iter 1, The 1-th image: G,clip score 0.342: [CLS] a photo of the horse running herd background and colored background below. [SEP]
+iter 2, The 1-th image: G,clip score 0.327: [CLS] a photo of the horse running white above a tan background appeared. [SEP]
+iter 3, The 1-th image: G,clip score 0.315: [CLS] a photo of the horse in formation against a white background appears. [SEP]
+Finished in 3.305s
+The 1-th image: G
+final caption: a photo of the horse in formation against a white background appears.
+best caption: a photo of the horse running herd background and colored background below.
+iter 1, The 1-th image: G,clip score 0.331: [CLS] a photo of the horse running herd background and a mapline. [SEP]
+iter 2, The 1-th image: G,clip score 0.314: [CLS] a photo of the horse running in circles on the dieline. [SEP]
+iter 3, The 1-th image: G,clip score 0.342: [CLS] a photo of the horse running dancing background on the side spread. [SEP]
+Finished in 3.317s
+The 1-th image: G
+final caption: a photo of the horse running dancing background on the side spread.
+best caption: a photo of the horse running dancing background on the side spread.
+iter 1, The 1-th image: G,clip score 0.326: [CLS] a photo of the horse running herd background and a map background. [SEP]
+iter 2, The 1-th image: G,clip score 0.365: [CLS] a photo of the horse and chase cowboys surrounding a chase background. [SEP]
+iter 3, The 1-th image: G,clip score 0.365: [CLS] a photo of the horse and chase cowboys surrounding the game background. [SEP]
+Finished in 3.553s
+The 1-th image: G
+final caption: a photo of the horse and chase cowboys surrounding the game background.
+best caption: a photo of the horse and chase cowboys surrounding a chase background.
+iter 1, The 1-th image: G,clip score 0.305: [CLS] a photo of the horse running herd displayed a large animal head. [SEP]
+iter 2, The 1-th image: G,clip score 0.286: [CLS] a photo of the horse running away with a huge red horse. [SEP]
+iter 3, The 1-th image: G,clip score 0.315: [CLS] a photo of the horse riding scene includes a large runaway horse. [SEP]
+Finished in 4.920s
+The 1-th image: G
+final caption: a photo of the horse riding scene includes a large runaway horse.
+best caption: a photo of the horse riding scene includes a large runaway horse.
+iter 1, The 1-th image: G,clip score 0.305: [CLS] a photo of the horse running herd displayed a large animal head. [SEP]
+iter 2, The 1-th image: G,clip score 0.286: [CLS] a photo of the horse running away with a huge red horse. [SEP]
+iter 3, The 1-th image: G,clip score 0.315: [CLS] a photo of the horse riding scene includes a large runaway horse. [SEP]
+iter 4, The 1-th image: G,clip score 0.325: [CLS] a photo of the horse chase background shows a runaway white horse. [SEP]
+iter 5, The 1-th image: G,clip score 0.330: [CLS] a photo of the horse in color includes a running of it. [SEP]
+Finished in 6.273s
+The 1-th image: G
+final caption: a photo of the horse in color includes a running of it.
+best caption: a photo of the horse in color includes a running of it.
+iter 1, The 1-th image: G,clip score 0.305: [CLS] a photo of the horse running herd displayed a large animal head. [SEP]
+iter 2, The 1-th image: G,clip score 0.286: [CLS] a photo of the horse running away with a huge red horse. [SEP]
+iter 3, The 1-th image: G,clip score 0.315: [CLS] a photo of the horse riding scene includes a large runaway horse. [SEP]
+iter 4, The 1-th image: G,clip score 0.325: [CLS] a photo of the horse chase background shows a runaway white horse. [SEP]
+Finished in 6.165s
+The 1-th image: G
+final caption: a photo of the horse chase background shows a runaway white horse.
+best caption: a photo of the horse chase background shows a runaway white horse.

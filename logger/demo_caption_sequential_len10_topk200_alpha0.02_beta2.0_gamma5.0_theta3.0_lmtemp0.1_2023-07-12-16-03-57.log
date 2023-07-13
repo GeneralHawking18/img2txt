@@ -1,0 +1,24 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], seed_len=3)
+iter 1, The 1-th image: G,clip score 0.356: [CLS] a photo of the horse surrounded by animated by the models website. [SEP]
+iter 2, The 1-th image: G,clip score 0.333: [CLS] a photo of the horse surrounded is generated on the game board. [SEP]
+iter 3, The 1-th image: G,clip score 0.365: [CLS] a photo of the horse herd was created on the game frame. [SEP]
+Finished in 3.408s
+The 1-th image: G
+final caption: a photo of the horse herd was created on the game frame.
+best caption: a photo of the horse herd was created on the game frame.
+iter 1, The 1-th image: G,clip score 0.272: [CLS] a photo of the paper quickly merged with a large withstar pictures [MASK] [MASK] [SEP]
+iter 2, The 1-th image: G,clip score 0.272: [CLS] a photo of the paper line merged into a composite blue chip virtual [MASK] [MASK] [SEP]
+iter 3, The 1-th image: G,clip score 0.270: [CLS] a photo of the paper line was on a small blue chip program [MASK] [MASK] [SEP]
+Finished in 4.836s
+The 1-th image: G
+final caption: a photo of the paper line was on a small blue chip program
+best caption: a photo of the paper quickly merged with a large withstar pictures
+iter 1, The 1-th image: G,clip score 0.339: [CLS] a photo of the horse running while the model was animated surfaced. [SEP]
+iter 2, The 1-th image: G,clip score 0.351: [CLS] a photo of the horse running while the album was animated appeared. [SEP]
+iter 3, The 1-th image: G,clip score 0.326: [CLS] a photo of the horse moving as the album was released later. [SEP]
+Finished in 3.416s
+The 1-th image: G
+final caption: a photo of the horse moving as the album was released later.
+best caption: a photo of the horse running while the album was animated appeared.

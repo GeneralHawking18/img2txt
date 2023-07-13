@@ -1,0 +1,30 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], seed_len=3)
+iter 1, The 1-th image: G,clip score 0.313: [CLS] a photo of the giraffe ranch running six horses was shown [MASK] [MASK] [SEP]
+iter 2, The 1-th image: G,clip score 0.323: [CLS] a photo of the giraffe cowboy running nine horses is shown [MASK] [MASK] [SEP]
+iter 3, The 1-th image: G,clip score 0.306: [CLS] a photo of the giraffe cowboy running his horses is shown [MASK] [MASK] [SEP]
+iter 4, The 1-th image: G,clip score 0.307: [CLS] a photo of the giraffe cowboy circling his horses is shown [MASK] [MASK] [SEP]
+iter 5, The 1-th image: G,clip score 0.307: [CLS] a photo of the giraffe cowboy circling his horses is shown [MASK] [MASK] [SEP]
+Finished in 5.297s
+The 1-th image: G
+final caption: a photo of the giraffe cowboy circling his horses is shown
+best caption: a photo of the giraffe cowboy running nine horses is shown
+iter 1, The 1-th image: G,clip score 0.336: [CLS] a photo of the horse running herd displayed a large ranch house. [SEP]
+iter 2, The 1-th image: G,clip score 0.347: [CLS] a photo of the horse running together in a small ranch game. [SEP]
+iter 3, The 1-th image: G,clip score 0.356: [CLS] a photo of the horse running herd playing a local western series. [SEP]
+iter 4, The 1-th image: G,clip score 0.352: [CLS] a photo of the horse and horses running the complete western series. [SEP]
+iter 5, The 1-th image: G,clip score 0.343: [CLS] a photo of the horse and herd in the great cowboy website. [SEP]
+Finished in 8.050s
+The 1-th image: G
+final caption: a photo of the horse and herd in the great cowboy website.
+best caption: a photo of the horse running herd playing a local western series.
+iter 1, The 1-th image: G,clip score 0.336: [CLS] a photo of the horse running herd displayed a large ranch house. [SEP]
+iter 2, The 1-th image: G,clip score 0.347: [CLS] a photo of the horse running together in a small ranch game. [SEP]
+iter 3, The 1-th image: G,clip score 0.356: [CLS] a photo of the horse running herd playing a local western series. [SEP]
+iter 4, The 1-th image: G,clip score 0.352: [CLS] a photo of the horse and horses running the complete western series. [SEP]
+iter 5, The 1-th image: G,clip score 0.343: [CLS] a photo of the horse and herd in the great cowboy website. [SEP]
+Finished in 5.870s
+The 1-th image: G
+final caption: a photo of the horse and herd in the great cowboy website.
+best caption: a photo of the horse running herd playing a local western series.

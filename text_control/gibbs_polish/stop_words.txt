@@ -1,7 +1,7 @@
 ...
-[unused0]
-[unused1]
-[unused2]
+blur
+fade
+smoke
 [unused3]
 [unused4]
 [unused5]

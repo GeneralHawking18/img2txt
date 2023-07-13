@@ -32,8 +32,8 @@ class SAM():
             print ('Cuda is not available.')
             print ('Device is {}'.format(self.device))
 
-    def get_image_crop(self, image, input_point = [[1800, 950]],crop_mode = "w_bg"):
-        masks = self.infer_masks(input_point)
+    def get_image_crop(self, image, masks, crop_mode = "w_bg"):
+        # masks = self.infer_masks(input_point)
         masked_image = self.crop_by_masks(image, masks, crop_mode = crop_mode)
         size = max(masks.shape[0], masks.shape[1])
         left, top, right, bottom = self.seg_to_box(masks, size) # calculating the position of the top-left and bottom-right corners in the image

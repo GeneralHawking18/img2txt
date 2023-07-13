@@ -204,7 +204,7 @@ def control_generate_caption(img_name, model, clip, tokenizer,image_instance,tok
                     ctl_type="sentiment", style_type="positive",pos_type=None,generate_order="sequential"):
     # controllable funcitions to call
     start_time = time.time()
-    max_len = max_len - (len(prompt.split()) - 2)
+    max_len = max_len - (len(prompt.split()) - 3)
     if ctl_type=="sentiment": # sentiment control
         if generate_order=="sequential":
             generate_texts, clip_scores = sentiment_sequential_generation(img_name, model, clip, tokenizer, image_instance, token_mask, prompt, logger,

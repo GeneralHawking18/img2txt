@@ -1,0 +1,154 @@
+Generating order:sequential
+Run type:caption
+Namespace(seed=42, batch_size=1, device='cuda', run_type='caption', prompt='Image of', order='sequential', control_type='sentiment', pos_type=[['DET'], ['ADJ', 'NOUN'], ['NOUN'], ['VERB'], ['VERB'], ['ADV'], ['ADP'], ['DET', 'NOUN'], ['NOUN'], ['NOUN', '.'], ['.', 'NOUN'], ['.', 'NOUN']], sentiment_type='positive', samples_num=2, sentence_len=10, candidate_k=200, alpha=0.02, beta=2.0, gamma=5.0, theta=3.0, lm_temperature=0.1, num_iterations=10, lm_model='bert-base-uncased', match_model='openai/clip-vit-base-patch32', caption_img_path='./examples/girl.jpg', stop_words_path='./text_control/gibbs_polish/stop_words.txt', add_extra_stopwords=[], seed_len=3)
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.209: [CLS] a photo of the cowgirls and the red cowboy hat. [SEP]
+iter 2, The 1-th image: G,clip score 0.242: [CLS] a photo of the cowgirls flying a red cowboy hat. [SEP]
+iter 3, The 1-th image: G,clip score 0.242: [CLS] a photo of the cowgirls flying a red cowboy hat. [SEP]
+Finished in 5.053s
+The 1-th image: G
+final caption: a photo of the cowgirls flying a red cowboy hat.
+best caption: a photo of the cowgirls flying a red cowboy hat.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.209: [CLS] a photo of the cowgirls and the red cowboy hat. [SEP]
+iter 2, The 1-th image: G,clip score 0.242: [CLS] a photo of the cowgirls flying a red cowboy hat. [SEP]
+iter 3, The 1-th image: G,clip score 0.242: [CLS] a photo of the cowgirls flying a red cowboy hat. [SEP]
+Finished in 3.286s
+The 1-th image: G
+final caption: a photo of the cowgirls flying a red cowboy hat.
+best caption: a photo of the cowgirls flying a red cowboy hat.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.327: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.350: [CLS] a photo of the horse herding in the game is shown. [SEP]
+iter 3, The 1-th image: G,clip score 0.314: [CLS] a photo of the horse bucking in the game is shown. [SEP]
+Finished in 4.802s
+The 1-th image: G
+final caption: a photo of the horse bucking in the game is shown.
+best caption: a photo of the horse herding in the game is shown.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.362: [CLS] a photo of the horse herding in the game is shown. [SEP]
+iter 3, The 1-th image: G,clip score 0.362: [CLS] a photo of the horse herding in the game is shown. [SEP]
+Finished in 3.480s
+The 1-th image: G
+final caption: a photo of the horse herding in the game is shown.
+best caption: a photo of the horse herding in the game is shown.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.362: [CLS] a photo of the horse herding in the game is shown. [SEP]
+iter 3, The 1-th image: G,clip score 0.362: [CLS] a photo of the horse herding in the game is shown. [SEP]
+Finished in 4.532s
+The 1-th image: G
+final caption: a photo of the horse herding in the game is shown.
+best caption: a photo of the horse herding in the game is shown.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.334: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.362: [CLS] a photo of the horse herding in the game is shown. [SEP]
+iter 3, The 1-th image: G,clip score 0.320: [CLS] a photo of the horse bucking in the game is shown. [SEP]
+Finished in 4.504s
+The 1-th image: G
+final caption: a photo of the horse bucking in the game is shown.
+best caption: a photo of the horse herding in the game is shown.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 3, The 1-th image: G,clip score 0.332: [CLS] a photo of the horse being used in the game is shown. [SEP]
+Finished in 3.368s
+The 1-th image: G
+final caption: a photo of the horse being used in the game is shown.
+best caption: a photo of the horse being used in the game is shown.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.327: [CLS] a photo of the horse being used in the game is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.354: [CLS] a photo of the horse herding in the game is shown. [SEP]
+iter 3, The 1-th image: G,clip score 0.312: [CLS] a photo of the horse bucking in the game is shown. [SEP]
+Finished in 4.132s
+The 1-th image: G
+final caption: a photo of the horse bucking in the game is shown.
+best caption: a photo of the horse herding in the game is shown.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.274: [CLS] a photo of the horse was displayed in the game changing room. [SEP]
+iter 2, The 1-th image: G,clip score 0.261: [CLS] a photo of the horse is displayed in the horse show room. [SEP]
+iter 3, The 1-th image: G,clip score 0.264: [CLS] a photo of the horse is held at the horse racing museum. [SEP]
+Finished in 3.383s
+The 1-th image: G
+final caption: a photo of the horse is held at the horse racing museum.
+best caption: a photo of the horse was displayed in the game changing room.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.274: [CLS] a photo of the horse was displayed in the game changing room. [SEP]
+iter 2, The 1-th image: G,clip score 0.261: [CLS] a photo of the horse is displayed in the horse show room. [SEP]
+iter 3, The 1-th image: G,clip score 0.264: [CLS] a photo of the horse is held at the horse racing museum. [SEP]
+Finished in 3.822s
+The 1-th image: G
+final caption: a photo of the horse is held at the horse racing museum.
+best caption: a photo of the horse was displayed in the game changing room.
+iter 8, The 1-th image: G,clip score 0.282: [CLS] a photo of the horse [MASK] [MASK] seen at sports [MASK] illustrated. [SEP]
+iter 16, The 1-th image: G,clip score 0.322: [CLS] a photo of the horse [MASK] was rendered at disney [MASK] interactive. [SEP]
+iter 24, The 1-th image: G,clip score 0.295: [CLS] a photo of the horse [MASK] was released by disney interactive interactive. [SEP]
+Finished in 3.270s
+The 1-th image: G
+final caption: a photo of the horse was released by disney interactive interactive.
+best caption: a photo of the horse was rendered at sports interactive.
+iter 8, The 1-th image: G,clip score 0.302: [CLS] a photo of the horse [MASK] [MASK] used at and [MASK] game. [SEP]
+iter 16, The 1-th image: G,clip score 0.322: [CLS] a photo of the horse [MASK] footage shot at star [MASK]or. [SEP]
+iter 24, The 1-th image: G,clip score 0.299: [CLS] a photo of the horse [MASK] was provided by cloudgator. [SEP]
+Finished in 3.137s
+The 1-th image: G
+final caption: a photo of the horse was provided by cloudgator.
+best caption: a photo of the horse footage provided by cloudgator.
+iter 8, The 1-th image: G,clip score 0.245: [CLS] a photo of the wall - brick and wall running [MASK] the stable [MASK] [MASK] [SEP]
+iter 16, The 1-th image: G,clip score 0.266: [CLS] a photo of the wall - wide stone wall mural [MASK] the ranch [MASK] [MASK] [SEP]
+iter 24, The 1-th image: G,clip score 0.228: [CLS] a photo of the wall - used for wall calendar or the office [MASK] [MASK] [SEP]
+Finished in 3.288s
+The 1-th image: G
+final caption: a photo of the wall - used for wall calendar or the office
+best caption: a photo of the wall - wide stone wall mural the ranch
+iter 8, The 1-th image: G,clip score 0.285: [CLS] a photo of the horse [MASK] [MASK] seen at sports [MASK] illustrated. [SEP]
+iter 16, The 1-th image: G,clip score 0.323: [CLS] a photo of the horse [MASK] was rendered at disney [MASK] interactive. [SEP]
+iter 24, The 1-th image: G,clip score 0.297: [CLS] a photo of the horse [MASK] was released by disney interactive interactive. [SEP]
+Finished in 3.975s
+The 1-th image: G
+final caption: a photo of the horse was released by disney interactive interactive.
+best caption: a photo of the horse was rendered at sports interactive.
+iter 1, The 1-th image: G,clip score 0.313: [CLS] a photo of the horse surrounded by a large black blur appeared. [SEP]
+iter 2, The 1-th image: G,clip score 0.315: [CLS] a photo of the horse surrounded by a large black pack appeared. [SEP]
+iter 3, The 1-th image: G,clip score 0.312: [CLS] a photo of the horse surrounded by a large wolfess appeared. [SEP]
+Finished in 4.487s
+The 1-th image: G
+final caption: a photo of the horse surrounded by a large wolfess appeared.
+best caption: a photo of the horse surrounded by a large black pack appeared.
+Order_list:[3, 4, 6, 7, 2, 5, 0, 1]
+iter 1, The 1-th image: G,clip score 0.322: [CLS] a photo of the horse is available on the game web site. [SEP]
+iter 2, The 1-th image: G,clip score 0.307: [CLS] a photo of the horse is available on the official horse site. [SEP]
+iter 3, The 1-th image: G,clip score 0.301: [CLS] a photo of the horse is available on the wild horse website. [SEP]
+Finished in 4.510s
+The 1-th image: G
+final caption: a photo of the horse is available on the wild horse website.
+best caption: a photo of the horse is available on the game web site.
+iter 1, The 1-th image: G,clip score 0.313: [CLS] a photo of the horse surrounded by a large black blur appeared. [SEP]
+iter 2, The 1-th image: G,clip score 0.315: [CLS] a photo of the horse surrounded by a large black pack appeared. [SEP]
+iter 3, The 1-th image: G,clip score 0.312: [CLS] a photo of the horse surrounded by a large wolfess appeared. [SEP]
+Finished in 4.572s
+The 1-th image: G
+final caption: a photo of the horse surrounded by a large wolfess appeared.
+best caption: a photo of the horse surrounded by a large black pack appeared.
+iter 1, The 1-th image: G,clip score 0.356: [CLS] a photo of the horse surrounded by animated by the models website. [SEP]
+iter 2, The 1-th image: G,clip score 0.333: [CLS] a photo of the horse surrounded is generated on the game board. [SEP]
+iter 3, The 1-th image: G,clip score 0.365: [CLS] a photo of the horse herd was created on the game frame. [SEP]
+Finished in 3.379s
+The 1-th image: G
+final caption: a photo of the horse herd was created on the game frame.
+best caption: a photo of the horse herd was created on the game frame.
+iter 1, The 1-th image: G,clip score 0.356: [CLS] a photo of the horse surrounded by animated by the models website. [SEP]
+iter 2, The 1-th image: G,clip score 0.333: [CLS] a photo of the horse surrounded is generated on the game board. [SEP]
+iter 3, The 1-th image: G,clip score 0.365: [CLS] a photo of the horse herd was created on the game frame. [SEP]
+Finished in 3.297s
+The 1-th image: G
+final caption: a photo of the horse herd was created on the game frame.
+best caption: a photo of the horse herd was created on the game frame.
+iter 1, The 1-th image: G,clip score 0.299: [CLS] a photo of the horse unfolded representing the lead dog is shown. [SEP]
+iter 2, The 1-th image: G,clip score 0.341: [CLS] a photo of the horse shape of the cattle dogs is broken. [SEP]
+iter 3, The 1-th image: G,clip score 0.313: [CLS] a photo of the horsedog of the cattle dog comes overhead. [SEP]
+Finished in 3.403s
+The 1-th image: G
+final caption: a photo of the horsedog of the cattle dog comes overhead.
+best caption: a photo of the horse shape of the cattle dogs is broken.
