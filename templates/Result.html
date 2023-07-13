@@ -78,9 +78,9 @@
 </style>
 
 <div class="imageContainer">
-    <!-- <img src="{{ url_for('static', filename = image) }}" class="imageclass"> -->
+    <img src="{{ url_for('static', filename = image) }}" class="imageclass">
     <!-- <img src="../static/pictures/AGAO8348.JPG" class="imageclass"> -->
-    <img src="{{ image }}" class="imageclass">
+    <!-- <img src="{{ image }}" class="imageclass"> -->
 </div>
 <script>
     function onClickFunction() {
@@ -93,8 +93,8 @@
 </div>
 
 <div class="row1">
-    <div style="margin-left: 20%;"> Best caption-Factual-{{ bestCaption1 }} </div>
-    <div style="margin-right: 20%;"> Final caption-Factual-{{ finalCaption1 }} </div>
+    <div style="margin-left: 20%;"> Best caption-Factual: {{ bestCaption1 }} </div>
+    <div style="margin-right: 20%;"> Final caption-Factual: {{ finalCaption1 }} </div>
 </div>
 
 <div class="row2">
