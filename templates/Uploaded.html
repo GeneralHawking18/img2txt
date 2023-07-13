@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        body {
+            font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+        }
+
+        table {
+             margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .factual_table td {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .controllable_table td {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+    </style>
+     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <meta charset="UTF-8">
+    <h2>Configure parameters</h2>
+</head>
+<body>
+ <form class = "form-inline" method = "POST" action="/configure">
+
+     <style>
+         .dropdown {
+             margin: 1%;
+         }
+     </style>
+
+     <p class="lead"> Base Config </p>
+    <table>
+        <tr>
+            <td style="padding-right: 50px; padding-left: 50px; text-align: center; ">
+                <select name="isGpu" id="isGpu" data-role="slider">
+                    <option value= 1 >On</option>
+                    <option value= 0 >Off</option>
+                </select>
+            </td>
+            <td>
+                <select name="baseModel" id="baseModel">
+                <option value="blip1">Blip 1</option>
+                <option value="cnn-lstm">Cnn-lstm</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>GPU Usage</td>
+            <td>Base Model</td>
+        </tr>
+    </table>
+
+
+     <p class="lead"> Factual Mode </p>
+     <table class = "factual_table">
+         <tr>
+             <td>
+                 <select name="baseModelCaption" id="baseModelCaption">
+                     <option value="blip1">Blip 1</option>
+                     <option value="cnn-lstm">Cnn-lstm</option>
+                 </select>
+             </td>
+             <td>
+                 <select name="MLM" id="MLM">
+                     <option value="bert-base-uncased">Bert-base-uncased</option>
+                     <option value="bert-large-uncased">Bert-large-uncased</option>
+                     <option value="bert-large-uncased-whole-word-masking">Bert-large-uncased-whole-word-masking</option>
+                     <option value="distilbert-base-uncased">Distilbert-base-uncased</option>
+                 </select>
+             </td>
+             <td>
+                 <select name="matchModelName" id="matchModelName">
+                     <option value="kakaobrain/align-base">kakaobrain/align-base</option>
+                     <option value="openai/clip-vit-base-patch32">openai/clip-vit-base-patch32</option>
+                </select>
+             </td>
+             <td>
+                 <select name="orderCaption" id="orderCaption">
+                     <option value="sequential">Sequential</option>
+                     <option value="shuffle">Shuffle</option>
+                     <option value="random">Random</option>
+                     <option value="precise">Precise</option>
+                 </select>
+             </td>
+         </tr>
+         <tr>
+             <td>Base Model</td>
+             <td>MLM</td>
+             <td>Match-model-name</td>
+             <td>Order</td>
+         </tr>
+     </table>
+
+     <table class="container">
+         <tr>
+             <td>
+                 <input type = "range" min = "0.0" max = "1.0" step = "0.01" id="slider1" value = "0.55" name = "alphaCaption"/>
+                 <output id="output1">0.55</output>
+             </td>
+             <td>
+                 <input type = "range" min = "1.0" max = "5.0" step = "0.5" id="slider2" value = 2.5 name = "betaCaption" />
+                 <output id="output2">2.5</output>
+             </td>
+             <td>
+                 <input type = "range" min = "0.0" max = "10.0" step = "0.5" id="slider3" value = 1.5 name = "thetaCaption" />
+                 <output id="output3">1.5</output>
+             </td>
+             <td>
+                 <input type = "range" min = "1.0" max = "5.0" step = "1.0" id="slider4" value = 2 name = "samplesNumCaption"/>
+                 <output id="output4">2</output>
+             </td>
+             <td>
+                 <input type = "range" min = "5.0" max = "15.0" step = "1.0" id="slider5" value = 15 name = "lengthCaption"/>
+                 <output id="output5">15</output>
+             </td>
+             <td>
+                 <input type = "range" min = "1.0" max = "15.0" step = "1.0" id="slider6" value = 5 name = "numIterationsCaption"/>
+                 <output id="output6">5</output>
+             </td>
+             <td>
+                 <input type = "range" min = "0.0" max = "1.0001" step = "0.0001" id="slider7" value = 1.0001 name = "topPCaption"/>
+                 <output id="output7">1.0001</output>
+             </td>
+         </tr>
+         <tr>
+             <td>Alpha</td>
+             <td>Beta</td>
+             <td>Theta</td>
+             <td>Sample number</td>
+             <td>Text length</td>
+             <td>Iterations</td>
+             <td>TopP</td>
+         </tr>
+     </table>
+
+
+     <p class="lead">Controllable Mode</p>
+     <table class="controllable_table">
+         <tr>
+             <td>
+                 <select name="sentimentType" id="sentimentType">
+                     <option value="positive">Positive</option>
+                     <option value="negative">Negative</option>
+                 </select>
+             </td>
+             <td>
+                 <select name="MLMControl" id="MLMControl">
+                     <option value="bert-base-uncased">Bert-base-uncased</option>
+                     <option value="bert-large-uncased">Bert-large-uncased</option>
+                     <option value="bert-large-uncased-whole-word-masking">Bert-large-uncased-whole-word-masking</option>
+                     <option value="distilbert-base-uncased">Distilbert-base-uncased</option>
+                 </select>
+             </td>
+             <td>
+                <select name="matchModelNameControl" id="matchModelNameControl">
+                    <option value="kakaobrain/align-base">kakaobrain/align-base</option>
+                    <option value="openai/clip-vit-base-patch32">openai/clip-vit-base-patch32</option>
+                </select>
+             </td>
+             <td>
+                <select name="orderControl" id="orderControl">
+                     <option value="sequential">Sequential</option>
+                     <option value="shuffle">Shuffle</option>
+                     <option value="random">Random</option>
+                     <option value="precise">Precise</option>
+                 </select>
+             </td>
+         </tr>
+         <tr>
+             <td>Sentiment Type</td>
+             <td>MLM</td>
+             <td>Match-model-name</td>
+             <td>Order</td>
+         </tr>
+     </table>
+
+     </div>
+     <table class="container">
+         <tr>
+             <td>
+                 <input type = "range" min = "0.0" max = "1.0" step = "0.01" id="slider8" value = "0.02" name = "alphaControl"/>
+                 <output id="output8">0.02</output>
+             </td>
+             <td>
+                 <input type = "range" min = "1.0" max = "5.0" step = "0.5" id="slider9" value = 2.5 name = "betaControl" />
+                 <output id="output9">2.5</output>
+             </td>
+             <td>
+                 <input type = "range" min = "0.0" max = "10.0" step = "0.5" id="slider10" value = 8.5 name = "gammaControl" />
+                 <output id="output10">8.5</output>
+             </td>
+             <td>
+                 <input type = "range" min = "1.0" max = "5.0" step = "1.0" id="slider11" value = 1 name = "samplesNumControl"/>
+                 <output id="output11">1</output>
+             </td>
+             <td>
+                 <input type = "range" min = "5.0" max = "15.0" step = "1.0" id="slider12" value = 10 name = "lengthControl"/>
+                 <output id="output12">10</output>
+             </td>
+             <td>
+                 <input type = "range" min = "1.0" max = "15.0" step = "1.0" id="slider13" value = 5 name = "numIterationsControl"/>
+                 <output id="output13">5</output>
+             </td>
+             <td>
+                 <input type = "range" min = "0.0" max = "1.0001" step = "0.0001" id="slider14" value = 0.9795 name = "topPControl"/>
+                 <output id="output14">0.9795</output>
+             </td>
+         </tr>
+         <tr>
+             <td>Alpha</td>
+             <td>Beta</td>
+             <td>Gamma</td>
+             <td>Sample number</td>
+             <td>Text length</td>
+             <td>Iterations</td>
+             <td>TopP</td>
+         </tr>
+     </table>
+
+     <button type = "submit"> Submit </button>
+
+
+ </form>
+
+ <script>
+     function load_values() {
+        for(let i = 1; i < 15; i++) {
+            document.getElementById("output".concat(i.toString())).innerHTML = document.getElementById("slider".concat(i.toString())).value;
+        }
+     }
+
+     function sliderValue(slider, output) {
+         output.innerHTML = slider.value;
+
+         slider.oninput = function () {
+             output.innerHTML = this.value;
+         }
+     }
+
+    for(let i = 1; i < 15; i++) {
+        sliderValue(document.getElementById("slider".concat(i.toString())), document.getElementById("output".concat(i.toString())));
+    };
+
+    load_values();
+ </script>
+</body>
+</html>

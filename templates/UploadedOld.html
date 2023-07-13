@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        body {
+            font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+        }
+    </style>
+     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <meta charset="UTF-8">
+    <h2>Configure parameters</h2>
+</head>
+<body>
+ <form class = "form-inline" method = "POST" action="/configure">
+<p class="lead"> DO NOT ENABLE GPU IF YOU DON'T HAVE CUDA </p>
+     <div id="start">
+     <label for="isGpu">GPU Usage</label>
+    <select name="isGpu" id="isGpu" data-role="slider">
+	    <option value= 0 >Off</option>
+	    <option value= 1 >On</option>
+        </select>
+</div>
+
+     <style>
+         div.dropdown {
+             margin: 1%;
+         }
+     </style>
+
+<div class="dropdown">
+    <select name="runType" id="runType">
+      <option value="caption">Caption</option>
+      <option value="controllable">Controllable</option>
+      </select>
+
+    <select name="controlType" id="controlType">
+          <option value="sentiment">Sentiment</option>
+          <option value="pos">Pos</option>
+          </select>
+
+     <select name="sentimentType" id="sentimentType">
+      <option value="postive">Positive</option>
+      <option value="negative">Negative</option>
+      </select>
+
+     <select name="order" id="order">
+      <option value="sequential">Sequential</option>
+      <option value="shuffle">Shuffle</option>
+      <option value="random">Random</option>
+      </select>
+</div>
+     <div>
+     </div>
+     <style>
+         ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          display: inline-block;
+         }
+
+         li {
+             float: left;
+             display: block;
+             text-align: center;
+             padding: 16px;
+             margin-inline: 30px;
+         }
+
+         .container {
+             margin-left: auto;
+             margin-right: auto;
+         }
+     </style>
+     <table class="container">
+             <tr>
+                 <td>
+                    <input type = "range" min = "0.0" max = "1.0" step = "0.01" id="slider1" value = "0.55" name = "alpha"/>
+                    <output id="output1"></output>
+
+                 </td>
+                 <td>
+                    <input type = "range" min = "1.0" max = "5.0" step = "0.5" id="slider2" value = 2.5 name = "beta" />
+                    <output id="output2">2.5</output>
+                 </td>
+                 <td>
+                    <input type = "range" min = "1.0" max = "10.0" step = "0.5" id="slider3" value = 5.0 name = "gamma" />
+                    <output id="output3">5.0</output>
+                 </td>
+                 <td>
+                    <input type = "range" min = "1.0" max = "5.0" step = "1.0" id="slider4" value = 2 name = "samplesNum"/>
+                    <output id="output4">2</output>
+                 </td>
+                 <td>
+                     <input type = "range" min = "5.0" max = "15.0" step = "1.0" id="slider5" value = 15 name = "length"/>
+                     <output id="output5">15</output>
+                 </td>
+                 <td>
+                     <input type = "range" min = "1.0" max = "15.0" step = "1.0" id="slider6" value = 5 name = "numIterations"/>
+                     <output id="output6">5</output>
+                 </td>
+             </tr>
+             <tr>
+                 <td>alpha</td>
+                 <td>beta</td>
+                 <td>gamma</td>
+                 <td>sample number</td>
+                 <td>text length</td>
+                 <td>iterations</td>
+             </tr>
+     </table>
+
+     <button type = "submit"> Submit </button>
+ </form>
+
+ <script>
+     function sliderValue(slider, output) {
+         output.innerHTML = slider.value;
+
+         slider.oninput = function () {
+             output.innerHTML = this.value;
+         }
+     }
+    for(let i = 1; i < 7; i++) {
+        sliderValue(document.getElementById("slider".concat(i.toString())), document.getElementById("output".concat(i.toString())));
+    }
+ </script>
+</body>
+</html>
